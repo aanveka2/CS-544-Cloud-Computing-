@@ -1,0 +1,1944 @@
+Sched Debug Version: v0.11, 5.4.0-48-generic #52-Ubuntu
+ktime                                   : 2834995.082911
+sched_clk                               : 2834747.981596
+cpu_clk                                 : 2834741.076525
+jiffies                                 : 4295601017
+sched_clock_stable()                    : 1
+
+sysctl_sched
+  .sysctl_sched_latency                    : 18.000000
+  .sysctl_sched_min_granularity            : 2.250000
+  .sysctl_sched_wakeup_granularity         : 3.000000
+  .sysctl_sched_child_runs_first           : 0
+  .sysctl_sched_features                   : 2059067
+  .sysctl_sched_tunable_scaling            : 1 (logarithmic)
+
+cpu#0, 2200.004 MHz
+  .nr_running                    : 1
+  .nr_switches                   : 5031611
+  .nr_load_updates               : 0
+  .nr_uninterruptible            : 391
+  .next_balance                  : 4295.601027
+  .curr->pid                     : 22850
+  .clock                         : 2834741.732098
+  .clock_task                    : 2834741.732098
+  .avg_idle                      : 557150
+  .max_idle_balance_cost         : 500000
+
+cfs_rq[0]:/user.slice
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 34228196.319869
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : 29281107.912695
+  .nr_spread_over                : 0
+  .nr_running                    : 1
+  .load                          : 1048576
+  .runnable_weight               : 1048576
+  .load_avg                      : 1047
+  .runnable_load_avg             : 1024
+  .util_avg                      : 1012
+  .util_est_enqueued             : 0
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 1054
+  .tg_load_avg                   : 3980
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 2834741.732098
+  .se->vruntime                  : 4947088.407174
+  .se->sum_exec_runtime          : 1077941.044735
+  .se->load.weight               : 276329
+  .se->runnable_weight           : 270258
+  .se->avg.load_avg              : 267
+  .se->avg.util_avg              : 1016
+  .se->avg.runnable_load_avg     : 261
+
+cfs_rq[0]:/system.slice/thermald.service
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 159.402570
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -4946929.004604
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 0
+  .runnable_load_avg             : 0
+  .util_avg                      : 0
+  .util_est_enqueued             : 0
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 0
+  .tg_load_avg                   : 0
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 2834507.589632
+  .se->vruntime                  : 176030.266498
+  .se->sum_exec_runtime          : 165.677226
+  .se->load.weight               : 349525
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 0
+  .se->avg.util_avg              : 0
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[0]:/system.slice/systemd-udevd.service
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 2795.547025
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -4944292.860149
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 14
+  .runnable_load_avg             : 0
+  .util_avg                      : 7
+  .util_est_enqueued             : 0
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 14
+  .tg_load_avg                   : 14
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 2834507.553869
+  .se->vruntime                  : 176033.175575
+  .se->sum_exec_runtime          : 4138.399402
+  .se->load.weight               : 1035430
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 14
+  .se->avg.util_avg              : 7
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[0]:/system.slice
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 176039.133203
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -4771049.273971
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 14
+  .runnable_load_avg             : 0
+  .util_avg                      : 7
+  .util_est_enqueued             : 0
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 1024
+  .tg_load_avg                   : 1109
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 2834507.589632
+  .se->vruntime                  : 4946140.373567
+  .se->sum_exec_runtime          : 146527.198686
+  .se->load.weight               : 808194
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 11
+  .se->avg.util_avg              : 7
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[0]:/
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 4947088.407174
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : 0.000000
+  .nr_spread_over                : 0
+  .nr_running                    : 1
+  .load                          : 276329
+  .runnable_weight               : 270258
+  .load_avg                      : 273
+  .runnable_load_avg             : 261
+  .util_avg                      : 1021
+  .util_est_enqueued             : 191
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 0
+  .tg_load_avg                   : 0
+  .throttled                     : 0
+  .throttle_count                : 0
+
+rt_rq[0]:
+  .rt_nr_running                 : 0
+  .rt_nr_migratory               : 0
+  .rt_throttled                  : 0
+  .rt_time                       : 0.000000
+  .rt_runtime                    : 950.000000
+
+dl_rq[0]:
+  .dl_nr_running                 : 0
+  .dl_nr_migratory               : 0
+  .dl_bw->bw                     : 996147
+  .dl_bw->total_bw               : 0
+
+runnable tasks:
+ S           task   PID         tree-key  switches  prio     wait-time             sum-exec        sum-sleep
+-----------------------------------------------------------------------------------------------------------
+ S       kthreadd     2   4623158.145195       259   120         0.000000         7.823780         0.000000 0 0 /
+ I         rcu_gp     3        13.969085         2   100         0.000000         0.004095         0.000000 0 0 /
+ I     rcu_par_gp     4        15.969561         2   100         0.000000         0.002360         0.000000 0 0 /
+ I   kworker/0:0H     6       885.931828         7   100         0.000000         0.040277         0.000000 0 0 /
+ I   mm_percpu_wq     9        21.540092         2   100         0.000000         0.002563         0.000000 0 0 /
+ S    ksoftirqd/0    10   4946855.601083      6424   120         0.000000       278.002894         0.000000 0 0 /
+ S    migration/0    12         0.000000      3073     0         0.000000        64.111925         0.000000 0 0 /
+ S  idle_inject/0    13         0.000000         3    49         0.000000         0.000000         0.000000 0 0 /
+ S        cpuhp/0    14    412469.539233        20   120         0.000000         0.943466         0.000000 0 0 /
+ S      kdevtmpfs    33    633127.631138       278   120         0.000000         4.433836         0.000000 0 0 /
+ I             md    95       299.136001         3   100         0.000000         0.000000         0.000000 0 0 /
+ Secryptfs-kthrea   103       337.015354         2   120         0.000000         0.008170         0.000000 0 0 /
+ Ivfio-irqfd-clea   109       346.019727         2   100         0.000000         0.007033         0.000000 0 0 /
+ Icharger_manager   139       459.748081         2   100         0.000000         0.031584         0.000000 0 0 /
+ I     scsi_tmf_1   193       736.403618         2   100         0.000000         0.009199         0.000000 0 0 /
+ S    jbd2/sda2-8   226   4913972.224025      9809   120         0.000000       722.768041         0.000000 0 0 /
+ I   kworker/0:1H   228   4944497.545151     37583   100         0.000000       601.367170         0.000000 0 0 /
+ S          loop8   346     29678.644023       965   100         0.000000        37.922824         0.000000 0 0 /
+ S         loop12   351    260641.241559        73   100         0.000000         1.238358         0.000000 0 0 /
+ S  irq/50-mei_me   367        -4.027780        23    49         0.000000         3.082828         0.000000 0 0 /
+ I       cfg80211   371      4731.299190         2   100         0.000000         0.021023         0.000000 0 0 /
+ Ssystemd-resolve   786       267.706987      2506   120         0.000000      1290.382958         0.000000 0 0 /system.slice/systemd-resolved.service
+ S     sd-resolve   817       138.899411        21   120         0.000000         4.310553         0.000000 0 0 /system.slice/systemd-timesyncd.service
+ I   kworker/u9:1   894   1229148.530737       276   100         0.000000         3.850377         0.000000 0 0 /
+ Saccounts-daemon   925        48.167568       299   120         0.000000        67.577503         0.000000 0 0 /system.slice/accounts-daemon.service
+ S          gmain   976         0.537956         1   120         0.000000         0.086604         0.000000 0 0 /system.slice/irqbalance.service
+ S          gmain   961         5.832002         2   120         0.000000         0.058681         0.000000 0 0 /system.slice/polkit.service
+ S          snapd  1311      1572.025757      1047   120         0.000000       222.319155         0.000000 0 0 /system.slice/snapd.service
+ S       thermald  1075       159.402570      6195   120         0.000000       423.496048         0.000000 0 0 /system.slice/thermald.service
+ S        cleanup  1249        39.702083        12   120         0.000000         1.653635         0.000000 0 0 /system.slice/udisks2.service
+ S        anydesk  1086       203.644350      1240   120         0.000000       482.338631         0.000000 0 0 /system.slice/anydesk.service
+ S          gmain  1141         1.768214         1   120         0.000000         0.099568         0.000000 0 0 /system.slice/anydesk.service
+ S        lightdm  1100     73531.323318       105   120         0.000000        30.541747         0.000000 0 0 /system.slice/lightdm.service
+ S          gdbus  1109     73531.447294        60   120         0.000000        14.375912         0.000000 0 0 /system.slice/lightdm.service
+ S    Xorg:disk$0  1264       409.558082         3   120         0.000000         0.923563         0.000000 0 0 /system.slice/lightdm.service
+ S    Xorg:disk$1  1265       415.939308         3   120         0.000000         0.089877         0.000000 0 0 /system.slice/lightdm.service
+ S    Xorg:disk$3  1267       417.026071         3   120         0.000000         0.050211         0.000000 0 0 /system.slice/lightdm.service
+ S    Xorg:disk$1  1291       410.595051         3   120         0.000000         0.063022         0.000000 0 0 /system.slice/lightdm.service
+ S    Xorg:disk$3  1293       419.789270         3   120         0.000000         0.055530         0.000000 0 0 /system.slice/lightdm.service
+ S   rtkit-daemon  1358        10.508428        68   121         0.000000        10.501855         0.000000 0 0 /system.slice/rtkit-daemon.service
+ S   rtkit-daemon  1360         0.000000       378     0         0.000000        12.533607         0.000000 0 0 /system.slice/rtkit-daemon.service
+ S       vncagent  1602       242.678122      4328   120         0.000000       275.822457         0.000000 0 0 /system.slice/vncserver-x11-serviced.service
+ S        dockerd  1629       527.987176       652   120         0.000000       172.252465         0.000000 0 0 /system.slice/docker.service
+ S        dockerd  1630       527.225229       408   120         0.000000       110.859006         0.000000 0 0 /system.slice/docker.service
+ S        dockerd 23070       526.448535        78   120         0.000000         5.322125         0.000000 0 0 /system.slice/docker.service
+ S    teamviewerd  1626        49.688735         4   120         0.000000         0.541861         0.000000 0 0 /system.slice/teamviewerd.service
+ S    teamviewerd  1632        44.515895         1   120         0.000000         0.033687         0.000000 0 0 /system.slice/teamviewerd.service
+ Salsa-source-ALC  2327        -9.000000    221291    94         0.000000     21335.604287         0.000000 0 0 /user.slice
+ S          gdbus  2213  34103534.180899     12223   139         0.000000      1085.648421         0.000000 0 0 /user.slice
+ Spool-tracker-mi  2325     90948.581587         1   139         0.000000         0.043160         0.000000 0 0 /user.slice
+ S          gmain  2210     81580.011634         1   120         0.000000         0.050258         0.000000 0 0 /user.slice
+ S          gmain  2444  13366893.887375        90   120         0.000000         4.279826         0.000000 0 0 /user.slice
+ S     gvfsd-fuse  2243    305589.846758         3   120         0.000000         0.141449         0.000000 0 0 /user.slice
+ Sgvfs-gphoto2-vo  2259  33651586.661649        44   120         0.000000        14.379512         0.000000 0 0 /user.slice
+ S          gmain  2260     86621.198067         1   120         0.000000         0.051060         0.000000 0 0 /user.slice
+ S          gdbus  2262  33651588.255684        84   120         0.000000        10.548658         0.000000 0 0 /user.slice
+ Sgvfs-afc-volume  2264  34227627.450723      2812   120         0.000000       105.649483         0.000000 0 0 /user.slice
+ S          gmain  2265     86645.086502         1   120         0.000000         0.033803         0.000000 0 0 /user.slice
+ S          gdbus  2267  33651588.244286        83   120         0.000000         9.543202         0.000000 0 0 /user.slice
+ Sgvfs-goa-volume  2268  33651586.643241        64   120         0.000000        11.133132         0.000000 0 0 /user.slice
+ S          gdbus  2270  33651588.241254       116   120         0.000000        10.415849         0.000000 0 0 /user.slice
+ S     goa-daemon  2272   1242589.616173       117   120         0.000000        68.351859         0.000000 0 0 /user.slice
+ S          gdbus  2289   1241391.739469       100   120         0.000000        16.473439         0.000000 0 0 /user.slice
+ S     ibus-dconf  2381    121026.056644        28   120         0.000000         8.457530         0.000000 0 0 /user.slice
+ S   dconf worker  2396    121134.996561        10   120         0.000000         0.733836         0.000000 0 0 /user.slice
+ S   ibus-ui-gtk3  2382  34227527.071288      4367   120         0.000000      1270.977052         0.000000 0 0 /user.slice
+ S   dconf worker  2390    126795.161839        10   120         0.000000         0.958266         0.000000 0 0 /user.slice
+ S          gmain  2405    126802.408753         2   120         0.000000         0.102179         0.000000 0 0 /user.slice
+ Sxdg-desktop-por  2594    588663.161228         5   120         0.000000         0.759335         0.000000 0 0 /user.slice
+ S          gmain  2429    127074.126608         1   120         0.000000         0.066493         0.000000 0 0 /user.slice
+ S  fuse mainloop  2442    305632.178562         6   120         0.000000         0.226091         0.000000 0 0 /user.slice
+ S   dconf worker  2453    131923.657796        26   120         0.000000         2.486097         0.000000 0 0 /user.slice
+ S          gmain  2474    131589.334485         1   120         0.000000         0.067454         0.000000 0 0 /user.slice
+ S      gsd-color  2471  34215845.148694       958   120         0.000000       245.980142         0.000000 0 0 /user.slice
+ S          gdbus  2490  34215708.295967       309   120         0.000000        38.142510         0.000000 0 0 /user.slice
+ S          gmain  2481    131604.267590         1   120         0.000000         0.071608         0.000000 0 0 /user.slice
+ Spool-gsd-smartc  2537    131888.922045         4   120         0.000000         0.143592         0.000000 0 0 /user.slice
+ S          gmain  2516    131779.308563         2   120         0.000000         0.049245         0.000000 0 0 /user.slice
+ S   dconf worker  2517    132284.696144        17   120         0.000000         1.386183         0.000000 0 0 /user.slice
+ S          gmain  2514    131674.403703         1   120         0.000000         0.078293         0.000000 0 0 /user.slice
+ S   dconf worker  2515    133173.589925        10   120         0.000000         0.725186         0.000000 0 0 /user.slice
+ S gsd-media-keys  2507  34226490.742284      1151   120         0.000000       261.632193         0.000000 0 0 /user.slice
+ Sgsd-a11y-settin  2527  34215708.171928        63   120         0.000000        10.526593         0.000000 0 0 /user.slice
+ S   dconf worker  2576    131901.091000        10   120         0.000000         0.360320         0.000000 0 0 /user.slice
+ S          gmain  2567    131890.640458         1   120         0.000000         0.058731         0.000000 0 0 /user.slice
+ S          gmain  2570       194.483848         3   120         0.000000         0.157487         0.000000 0 0 /system.slice/colord.service
+ S    gsd-printer  2564  33931966.925338        55   120         0.000000        26.355908         0.000000 0 0 /user.slice
+ S          gdbus  2583  33931967.100496        49   120         0.000000         6.530110         0.000000 0 0 /user.slice
+ S   budgie-panel  2624  34228134.570109     58779   120         0.000000     24081.756279         0.000000 0 0 /user.slice
+ S   dconf worker  2628    274300.638115       218   120         0.000000        15.902638         0.000000 0 0 /user.slice
+ Spool-budgie-pan  2646    162706.370928         1   120         0.000000         0.058042         0.000000 0 0 /user.slice
+ Spool-budgie-pan  2654    169534.813789         2   120         0.000000         0.034576         0.000000 0 0 /user.slice
+ Spool-budgie-pan  2656    169552.129440         1   120         0.000000         0.038574         0.000000 0 0 /user.slice
+ Spool-budgie-pan  2657    169543.810730         2   120         0.000000         0.017426         0.000000 0 0 /user.slice
+ S          gmain  2642    161429.171835         1   120         0.000000         0.057870         0.000000 0 0 /user.slice
+ S          gdbus  2644    164695.603380        33   120         0.000000         2.667843         0.000000 0 0 /user.slice
+ S   dconf worker  2662    262598.637672        11   120         0.000000         0.916375         0.000000 0 0 /user.slice
+ S          gmain  2667    256816.312020         1   120         0.000000         0.054905         0.000000 0 0 /user.slice
+ Sevolution-alarm  2812    307040.991157        33   120         0.000000        18.691667         0.000000 0 0 /user.slice
+ S          gmain  2708  34226443.852586       814   120         0.000000        55.159826         0.000000 0 0 /user.slice
+ S          gmain  2797    300069.903818         2   120         0.000000         0.050824         0.000000 0 0 /user.slice
+ S            x11  2703    295584.547169        11   120         0.000000         0.179471         0.000000 0 0 /user.slice
+ Sbudgie-extras-d  2697  34215845.145919       807   120         0.000000       164.117963         0.000000 0 0 /user.slice
+ Sindicator-cpufr  2698  34228134.726211      5920   120         0.000000      2610.650043         0.000000 0 0 /user.slice
+ S          gmain  2810    300696.653904         2   120         0.000000         0.069560         0.000000 0 0 /user.slice
+ S   dconf worker  2811    305705.077956        10   120         0.000000         0.707924         0.000000 0 0 /user.slice
+ S          gmain  2711    295598.856483         1   120         0.000000         0.055952         0.000000 0 0 /user.slice
+ S          gmain  2782    298297.430659         1   120         0.000000         0.053975         0.000000 0 0 /user.slice
+ S          gdbus  2747  33936903.160735       104   120         0.000000         8.238302         0.000000 0 0 /user.slice
+ S          plank  2715  34227937.383036     17971   120         0.000000      3843.725461         0.000000 0 0 /user.slice
+ S          gdbus  2732  34227642.334198      3003   120         0.000000       520.771923         0.000000 0 0 /user.slice
+ S          gmain  2749    295631.820463         3   120         0.000000         0.104799         0.000000 0 0 /user.slice
+ S   dconf worker  2823    301263.576517        12   120         0.000000         0.548269         0.000000 0 0 /user.slice
+ Spool-bamfdaemon 23548  34226451.325377         8   120         0.000000         0.171553         0.000000 0 0 /user.slice
+ S          gmain  2867    302652.490790         2   120         0.000000         1.335524         0.000000 0 0 /user.slice
+ S          gmain  2897    305787.965377         2   120         0.000000         0.076233         0.000000 0 0 /user.slice
+ Sevolution-calen  2905    307041.004580        81   120         0.000000        19.808873         0.000000 0 0 /user.slice
+ Sevolution-addre  2920   1244211.611386       204   120         0.000000        79.768924         0.000000 0 0 /user.slice
+ S          gdbus  2932   1241391.021735       194   120         0.000000        27.109123         0.000000 0 0 /user.slice
+ S          gmain  3700       179.348326       698   120         0.000000        59.964688         0.000000 0 0 /system.slice/fwupd.service
+ S          fwupd  3701         9.790702         1   120         0.000000         0.025318         0.000000 0 0 /system.slice/fwupd.service
+ Spool-org.gnome.  6099    748636.944878        13   120         0.000000         1.029508         0.000000 0 0 /user.slice
+ S   dconf worker  4963   1638017.138470        34   120         0.000000         3.593129         0.000000 0 0 /user.slice
+ S          gdbus  4964   1640239.484298        77   120         0.000000         7.236266         0.000000 0 0 /user.slice
+ S         chrome  6632  34228151.554497    358714   120         0.000000    111001.300419         0.000000 0 0 /user.slice
+ Ssandbox_ipc_thr  6643   1681910.573503        62   120         0.000000         4.238149         0.000000 0 0 /user.slice
+ SChrome_IOThread  6661  34228151.425848    324880   120         0.000000     42561.019372         0.000000 0 0 /user.slice
+ S inotify_reader  6663   1239904.464733        12   120         0.000000         1.029625         0.000000 0 0 /user.slice
+ S    MemoryInfra  6664  34226453.179311      1063   120         0.000000       694.966033         0.000000 0 0 /user.slice
+ SCrShutdownDetec  6670    861741.697484         1   120         0.000000         0.083625         0.000000 0 0 /user.slice
+ SThreadPoolSingl  6674  34201094.301530      1188   120         0.000000       154.017847         0.000000 0 0 /user.slice
+ SVideoCaptureThr  6676    861760.371300         1   120         0.000000         0.105227         0.000000 0 0 /user.slice
+ SCacheThread_Blo  6678  34227507.443282       152   120         0.000000        23.255255         0.000000 0 0 /user.slice
+ Sutility_crash_u  6680    861769.640276         3   120         0.000000         0.268982         0.000000 0 0 /user.slice
+ Srenderer_crash_  6716    861920.163375         1   120         0.000000         0.104473         0.000000 0 0 /user.slice
+ Sextension_crash  6745    861974.730059         1   120         0.000000         0.312055         0.000000 0 0 /user.slice
+ S LevelDBEnv.IDB 19183   1662745.184526         7   120         0.000000         2.719919         0.000000 0 0 /user.slice
+ SThreadPoolForeg 23262  34227848.029233      1262   120         0.000000       654.495198         0.000000 0 0 /user.slice
+ SThreadPoolForeg 23539  34204332.941263         1   120         0.000000         0.201590         0.000000 0 0 /user.slice
+ S            cat  6639   1681910.632767        78   120         0.000000         3.257713         0.000000 0 0 /user.slice
+ S         chrome  6656  33968330.276887       682   120         0.000000       240.435562         0.000000 0 0 /user.slice
+ S         chrome  6677  34227265.435682    333201   120         0.000000    100621.279661         0.000000 0 0 /user.slice
+ SThreadPoolForeg  6835  34210239.317903     19587   120         0.000000      1471.356770         0.000000 0 0 /user.slice
+ S    MemoryInfra 20127  34028730.163411         8   120         0.000000         6.593640         0.000000 0 0 /user.slice
+ S inotify_reader  6688   1239904.266692        10   120         0.000000         0.877453         0.000000 0 0 /user.slice
+ S         chrome  6690  34028726.757520      1384   120         0.000000       234.935145         0.000000 0 0 /user.slice
+ SChromiumEnv.Sto  7036  33968198.821018       308   120         0.000000        79.240187         0.000000 0 0 /user.slice
+ S    MemoryInfra 20129  34028726.758916         4   120         0.000000         0.770154         0.000000 0 0 /user.slice
+ SThreadPoolServi  6895   2809269.785343        19   120         0.000000         1.635529         0.000000 0 0 /user.slice
+ SGpuMemoryThread  6898  15954165.582400       506   120         0.000000        43.104285         0.000000 0 0 /user.slice
+ S    MemoryInfra  7219  34028727.650095         8   120         0.000000         5.625071         0.000000 0 0 /user.slice
+ SThreadPoolForeg 23078  34201090.972440        49   120         0.000000         4.488522         0.000000 0 0 /user.slice
+ SThreadPoolForeg 23503  34204021.572081         2   120         0.000000         0.087067         0.000000 0 0 /user.slice
+ S         chrome  7075  34227986.910414    139607   120         0.000000    135675.094741         0.000000 0 0 /user.slice
+ SThreadPoolServi  7112  34226451.380261        85   120         0.000000         8.506110         0.000000 0 0 /user.slice
+ SThreadPoolForeg  7113  34226451.398811        88   120         0.000000        12.748883         0.000000 0 0 /user.slice
+ SThreadPoolForeg 23552  34226469.399692         1   120         0.000000         0.087597         0.000000 0 0 /user.slice
+ SThreadPoolSingl  7129    865978.666758         1   120         0.000000         0.121971         0.000000 0 0 /user.slice
+ SCompositorTileW  7130    865978.629559         2   120         0.000000         0.084772         0.000000 0 0 /user.slice
+ SThreadPoolServi  7390  33991896.680579         3   120         0.000000         0.353598         0.000000 0 0 /user.slice
+ SGpuMemoryThread  7393    886287.196567         2   120         0.000000         0.187215         0.000000 0 0 /user.slice
+ S     Compositor  7396   1717410.414474       327   120         0.000000        42.844978         0.000000 0 0 /user.slice
+ SCompositorTileW  7399   1681861.937800        15   120         0.000000         0.898150         0.000000 0 0 /user.slice
+ S    MemoryInfra 20131  34028728.251105         4   120         0.000000         1.632862         0.000000 0 0 /user.slice
+ SThreadPoolForeg 23528  34220915.017264         5   120         0.000000         0.222193         0.000000 0 0 /user.slice
+ S    MemoryInfra 11781  34028727.932713        10   120         0.000000        11.339563         0.000000 0 0 /user.slice
+ SDatabase thread 18682  34028727.112416        43   120         0.000000         3.957294         0.000000 0 0 /user.slice
+ I    kworker/0:1 13937   4291770.303236      5606   120         0.000000       303.273579         0.000000 0 0 /
+ I       xfsalloc 14697    632601.267757         2   100         0.000000         0.028748         0.000000 0 0 /
+ S          jfsIO 14703    632665.228226         2   120         0.000000         0.010000         0.000000 0 0 /
+ SThreadPoolServi 18999   1656204.182121         9   120         0.000000         0.958267         0.000000 0 0 /user.slice
+ SGpuMemoryThread 19002  17275916.264446      1842   120         0.000000       152.858320         0.000000 0 0 /user.slice
+ SCompositorTileW 19008  16278817.238061       480   130         0.000000       338.622797         0.000000 0 0 /user.slice
+ S         chrome 19164  34227460.542975     13799   120         0.000000     17328.411431         0.000000 0 0 /user.slice
+ SChrome_ChildIOT 19167  34226580.724834     12764   120         0.000000      1065.814654         0.000000 0 0 /user.slice
+ S     Compositor 19170   1692469.838763      5826   120         0.000000      1112.086313         0.000000 0 0 /user.slice
+ SCompositorTileW 19172   1683250.701774      1208   120         0.000000       755.849491         0.000000 0 0 /user.slice
+ SCompositorTileW 19173   1683479.768794      1362   120         0.000000       786.045420         0.000000 0 0 /user.slice
+ S             sh 19645   1680780.607168         2   120         0.000000         0.807177         0.000000 0 0 /user.slice
+ SQXcbEventReader 19654  34227653.505949     22538   120         0.000000      1608.042215         0.000000 0 0 /user.slice
+ S    zoom:disk$2 19697   1681066.560378         1   120         0.000000         0.046278         0.000000 0 0 /user.slice
+ S    vcdn_thread 23053  33736399.561350         1   120         0.000000         0.381431         0.000000 0 0 /user.slice
+ S      vncviewer 19759  13675353.130405      1558   120         0.000000       296.702824         0.000000 0 0 /user.slice
+ S    pxgsettings 19788   1687026.306704         1   120         0.000000         5.950251         0.000000 0 0 /user.slice
+ S          gmain 19789   1687034.761946         1   120         0.000000         0.054910         0.000000 0 0 /user.slice
+ S           code 19832   1689565.026097         1   120         0.000000         0.106324         0.000000 0 0 /user.slice
+ S           code 19836   1689586.038397         1   120         0.000000         0.016506         0.000000 0 0 /user.slice
+ S inotify_reader 19846   1689637.954956         1   120         0.000000         0.314551         0.000000 0 0 /user.slice
+ SVideoCaptureThr 19851   1689647.212432         1   120         0.000000         0.257482         0.000000 0 0 /user.slice
+ SVizCompositorTh 19868  34228136.078549     37428   120         0.000000      6893.069106         0.000000 0 0 /user.slice
+ S inotify_reader 19876   1689924.045973         1   120         0.000000         0.211996         0.000000 0 0 /user.slice
+ SThreadPoolForeg 19991  34226451.041799      3753   120         0.000000       967.554344         0.000000 0 0 /user.slice
+ SThreadPoolServi 19887   1690182.625440         1   120         0.000000         0.349016         0.000000 0 0 /user.slice
+ SChrome_ChildIOT 19889  34228121.402556     30936   120         0.000000      3239.661399         0.000000 0 0 /user.slice
+ SThreadPoolForeg 19891  34226451.480536      3231   120         0.000000      2389.346456         0.000000 0 0 /user.slice
+ SCompositorTileW 19893  34228121.389401      9098   120         0.000000      3846.347928         0.000000 0 0 /user.slice
+ S           code 19949  34227694.012117       584   120         0.000000        18.463403         0.000000 0 0 /user.slice
+ S    MemoryInfra 19976   1694297.684713         3   120         0.000000         0.687816         0.000000 0 0 /user.slice
+ S           code 20066   1698847.153925         1   120         0.000000         0.033906         0.000000 0 0 /user.slice
+ SThreadPoolForeg 22266  34226451.352136       432   120         0.000000       354.640825         0.000000 0 0 /user.slice
+ SThreadPoolForeg 22267  34226451.342134       635   120         0.000000       370.363828         0.000000 0 0 /user.slice
+ SThreadPoolServi 19920   1691676.294178         1   120         0.000000         0.202750         0.000000 0 0 /user.slice
+ S           code 19926   1691698.193695         1   120         0.000000         0.011158         0.000000 0 0 /user.slice
+ S           code 19960  34227564.281577      1162   120         0.000000        31.195078         0.000000 0 0 /user.slice
+ SThreadPoolServi 19939   1692181.191173         2   120         0.000000         0.848432         0.000000 0 0 /user.slice
+ SCompositorTileW 19946   1694288.254772        10   120         0.000000         1.960425         0.000000 0 0 /user.slice
+ SCompositorTileW 19947   1692211.189769         2   130         0.000000         0.286171         0.000000 0 0 /user.slice
+ S           bash 20065  21035624.961673       232   120         0.000000       109.177153         0.000000 0 0 /user.slice
+ SMicrosoft.Pytho 20171  34227813.445388      2241   120         0.000000       156.167411         0.000000 0 0 /user.slice
+ SMicrosoft.Pytho 20183   1704360.139796         2   120         0.000000         0.112615         0.000000 0 0 /user.slice
+ SThreadPoolServi 21593  17271038.444155         2   120         0.000000         0.308689         0.000000 0 0 /user.slice
+ SThreadPoolForeg 21611  34220913.400490        29   120         0.000000         1.494321         0.000000 0 0 /user.slice
+ SGpuMemoryThread 21661  17590221.065899         4   120         0.000000         0.239603         0.000000 0 0 /user.slice
+ S           sudo 22319  21036762.578429        23   120         0.000000        13.359157         0.000000 0 0 /user.slice
+ I    kworker/0:2 22776   4259975.575681      2712   120         0.000000        70.316407         0.000000 0 0 /
+>R            mem 22850  34228196.319869    121599   120         0.000000    589434.762072         0.000000 0 0 /user.slice
+ I    kworker/0:0 23303   4259965.586576         7   120         0.000000         0.227427         0.000000 0 0 /
+ I    kworker/0:3 23312   4946920.684731      1377   120         0.000000        31.694087         0.000000 0 0 /
+ S         chrome 23313  34028727.213334        42   120         0.000000        31.557808         0.000000 0 0 /user.slice
+ SThreadPoolServi 23314  33962501.634554         1   120         0.000000         0.154936         0.000000 0 0 /user.slice
+ S     Compositor 23321  33962524.056814         3   120         0.000000         0.188152         0.000000 0 0 /user.slice
+ S    MemoryInfra 23434  34028735.553122         4   120         0.000000         0.411216         0.000000 0 0 /user.slice
+ S  systemd-udevd 23562      2795.547025         1   120         0.000000         3.016116         0.000000 0 0 /system.slice/systemd-udevd.service
+
+cpu#1, 2200.004 MHz
+  .nr_running                    : 1
+  .nr_switches                   : 5971518
+  .nr_load_updates               : 0
+  .nr_uninterruptible            : -2799
+  .next_balance                  : 4295.601043
+  .curr->pid                     : 22799
+  .clock                         : 2834741.734092
+  .clock_task                    : 2834741.734092
+  .avg_idle                      : 429551
+  .max_idle_balance_cost         : 500000
+
+cfs_rq[1]:/system.slice/lightdm.service
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 103138.996177
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -4843949.410997
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 9
+  .runnable_load_avg             : 0
+  .util_avg                      : 9
+  .util_est_enqueued             : 0
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 9
+  .tg_load_avg                   : 9
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 2834673.746959
+  .se->vruntime                  : 186266.552803
+  .se->sum_exec_runtime          : 104597.575340
+  .se->load.weight               : 1048576
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 9
+  .se->avg.util_avg              : 9
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[1]:/user.slice
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 33333940.275947
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : 28386851.868773
+  .nr_spread_over                : 0
+  .nr_running                    : 1
+  .load                          : 1048576
+  .runnable_weight               : 1048576
+  .load_avg                      : 1060
+  .runnable_load_avg             : 1024
+  .util_avg                      : 981
+  .util_est_enqueued             : 0
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 1070
+  .tg_load_avg                   : 4000
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 2834741.734092
+  .se->vruntime                  : 4541128.461326
+  .se->sum_exec_runtime          : 1066300.434805
+  .se->load.weight               : 279972
+  .se->runnable_weight           : 270463
+  .se->avg.load_avg              : 265
+  .se->avg.util_avg              : 994
+  .se->avg.runnable_load_avg     : 256
+
+cfs_rq[1]:/system.slice/teamviewerd.service
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 616.095870
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -4946472.311304
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 0
+  .runnable_load_avg             : 0
+  .util_avg                      : 0
+  .util_est_enqueued             : 0
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 0
+  .tg_load_avg                   : 9
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 2834469.915009
+  .se->vruntime                  : 186253.253603
+  .se->sum_exec_runtime          : 851.653932
+  .se->load.weight               : 2
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 0
+  .se->avg.util_avg              : 0
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[1]:/system.slice/rsyslog.service
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 44.799121
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -4947043.608053
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 0
+  .runnable_load_avg             : 0
+  .util_avg                      : 0
+  .util_est_enqueued             : 0
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 0
+  .tg_load_avg                   : 0
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 2834329.667480
+  .se->vruntime                  : 186226.940059
+  .se->sum_exec_runtime          : 63.102876
+  .se->load.weight               : 2
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 0
+  .se->avg.util_avg              : 0
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[1]:/system.slice/systemd-udevd.service
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 2511.644294
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -4944576.762880
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 0
+  .runnable_load_avg             : 0
+  .util_avg                      : 0
+  .util_est_enqueued             : 0
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 0
+  .tg_load_avg                   : 14
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 2834509.813555
+  .se->vruntime                  : 186254.226567
+  .se->sum_exec_runtime          : 4977.360280
+  .se->load.weight               : 54370
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 0
+  .se->avg.util_avg              : 0
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[1]:/system.slice
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 186266.552803
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -4760821.854371
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 9
+  .runnable_load_avg             : 0
+  .util_avg                      : 9
+  .util_est_enqueued             : 0
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 30
+  .tg_load_avg                   : 1109
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 2834673.746959
+  .se->vruntime                  : 4540857.922650
+  .se->sum_exec_runtime          : 158738.352736
+  .se->load.weight               : 31117
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 0
+  .se->avg.util_avg              : 9
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[1]:/
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 4541128.461326
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -405959.945848
+  .nr_spread_over                : 0
+  .nr_running                    : 1
+  .load                          : 279972
+  .runnable_weight               : 270463
+  .load_avg                      : 276
+  .runnable_load_avg             : 256
+  .util_avg                      : 1005
+  .util_est_enqueued             : 271
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 0
+  .tg_load_avg                   : 0
+  .throttled                     : 0
+  .throttle_count                : 0
+
+rt_rq[1]:
+  .rt_nr_running                 : 0
+  .rt_nr_migratory               : 0
+  .rt_throttled                  : 0
+  .rt_time                       : 0.000000
+  .rt_runtime                    : 950.000000
+
+dl_rq[1]:
+  .dl_nr_running                 : 0
+  .dl_nr_migratory               : 0
+  .dl_bw->bw                     : 996147
+  .dl_bw->total_bw               : 0
+
+runnable tasks:
+ S           task   PID         tree-key  switches  prio     wait-time             sum-exec        sum-sleep
+-----------------------------------------------------------------------------------------------------------
+ S        cpuhp/1    15    374295.856531        20   120         0.000000         0.411711         0.000000 0 0 /
+ S  idle_inject/1    16        -2.996360         3    49         0.000000         0.006847         0.000000 0 0 /
+ S    migration/1    17        40.542947      2107     0         0.000000       172.753538         0.000000 0 0 /
+ S    ksoftirqd/1    18   4540271.494735      9637   120         0.000000       291.608348         0.000000 0 0 /
+ I   kworker/1:0H    20   4196928.648079     16990   100         0.000000       260.922199         0.000000 0 0 /
+ I          netns    34         7.954100         2   100         0.000000         0.002669         0.000000 0 0 /
+ S     kcompactd0    42        25.954090         2   120         0.000000         0.000000         0.000000 0 0 /
+ S           ksmd    43        25.954090         2   125         0.000000         0.000000         0.000000 0 0 /
+ I    kintegrityd    90        34.954480         2   100         0.000000         0.000000         0.000000 0 0 /
+ I blkcg_punt_bio    92        34.954480         2   100         0.000000         0.000000         0.000000 0 0 /
+ I    edac-poller    96        75.065089         2   100         0.000000         0.000000         0.000000 0 0 /
+ I   kworker/u8:1    99   4540359.005904    127276   120         0.000000      3648.346439         0.000000 0 0 /
+ S        kswapd0   102   4540520.162137      1822   120         0.000000      4047.305029         0.000000 0 0 /
+ Iacpi_thermal_pm   108       227.066159         2   100         0.000000         0.010382         0.000000 0 0 /
+ I   kworker/u9:0   124   1024544.603629       176   100         0.000000         3.955440         0.000000 0 0 /
+ S      scsi_eh_2   194     25876.929007         4   120         0.000000         0.030548         0.000000 0 0 /
+ I     scsi_tmf_2   195       597.028016         2   100         0.000000         0.022376         0.000000 0 0 /
+ S      scsi_eh_3   196     25876.927437         4   120         0.000000         0.032097         0.000000 0 0 /
+ Iext4-rsv-conver   227       776.360892         2   100         0.000000         0.007707         0.000000 0 0 /
+ S  systemd-udevd   291      2503.636532      4010   120         0.000000      1430.182484         0.000000 0 0 /system.slice/systemd-udevd.service
+ S          loop3   314    224292.349927      1186   100         0.000000        63.120459         0.000000 0 0 /
+ I         cryptd   380      5506.723133         2   100         0.000000         0.023120         0.000000 0 0 /
+ S NetworkManager   936      1359.028843     41973   120         0.000000      5497.599336         0.000000 0 0 /system.slice/NetworkManager.service
+ S          gdbus  1072      1352.027481      5389   120         0.000000       390.210995         0.000000 0 0 /system.slice/NetworkManager.service
+ S      in:imklog   992        35.847183        97   120         0.000000         9.358897         0.000000 0 0 /system.slice/rsyslog.service
+ S          snapd  1285      1790.346130       728   120         0.000000       201.371607         0.000000 0 0 /system.slice/snapd.service
+ Sswitcheroo-cont   959         8.896974        79   120         0.000000        30.331325         0.000000 0 0 /system.slice/switcheroo-control.service
+ S          gdbus  1053        11.750275         7   120         0.000000         1.052381         0.000000 0 0 /system.slice/switcheroo-control.service
+ S   avahi-daemon   979         0.021411         3   120         0.000000         0.202438         0.000000 0 0 /system.slice/avahi-daemon.service
+ S          gmain  1085        18.881171         1   120         0.000000         0.098327         0.000000 0 0 /system.slice/cups-browsed.service
+ S          gdbus  1087        27.941457       173   120         0.000000        32.065299         0.000000 0 0 /system.slice/cups-browsed.service
+ S          cupsd  1063         0.015956        86   120         0.000000        22.199528         0.000000 0 0 /system.slice/cups.service
+ S   ModemManager  1071         0.153790       298   120         0.000000       101.966738         0.000000 0 0 /system.slice/ModemManager.service
+ S          gdbus  1126        -5.095127        70   120         0.000000         7.872916         0.000000 0 0 /system.slice/ModemManager.service
+ Svncserver-x11-s  1082         5.478756        49   120         0.000000         7.914134         0.000000 0 0 /system.slice/vncserver-x11-serviced.service
+ S     containerd  1154        31.969167       161   120         0.000000        16.666008         0.000000 0 0 /system.slice/containerd.service
+ S     containerd  1211        73.607548       226   120         0.000000        27.951244         0.000000 0 0 /system.slice/containerd.service
+ S           Xorg  1194    103138.996177   1977773   120         0.000000    342886.395128         0.000000 0 0 /system.slice/lightdm.service
+ S    Xorg:disk$2  1266       141.537427         3   120         0.000000         0.049203         0.000000 0 0 /system.slice/lightdm.service
+ S    Xorg:disk$0  1290       139.152572         3   120         0.000000         0.074620         0.000000 0 0 /system.slice/lightdm.service
+ S       krfcommd  1467     22009.109244         2   110         0.000000         0.021879         0.000000 0 0 /
+ S          gmain  2178     82388.304110         6   120         0.000000         0.161455         0.000000 0 0 /user.slice
+ S        dockerd  1631        13.299228         1   120         0.000000         0.045668         0.000000 0 0 /system.slice/docker.service
+ S    teamviewerd  1616       606.906610      2887   120         0.000000       168.563674         0.000000 0 0 /system.slice/teamviewerd.service
+ S    teamviewerd  1635        24.599826         1   120         0.000000         0.072113         0.000000 0 0 /system.slice/teamviewerd.service
+ S         loop14  2064    224323.761476       152   100         0.000000         3.102639         0.000000 0 0 /
+ Stracker-miner-f  2204  33302301.707666    825943   139         0.000000    236501.962356         0.000000 0 0 /user.slice
+ S          gmain  2211  33301462.257046     14100   139         0.000000      2060.373561         0.000000 0 0 /user.slice
+ S   dconf worker  2216    102962.487311         4   139         0.000000         0.300533         0.000000 0 0 /user.slice
+ S          gmain  2231     86872.171124         1   120         0.000000         0.057853         0.000000 0 0 /user.slice
+ S  gvfs-fuse-sub  2251    368510.544389         3   120         0.000000         0.432892         0.000000 0 0 /user.slice
+ Sgvfs-udisks2-vo  2250  32574760.685280       947   120         0.000000       968.140172         0.000000 0 0 /user.slice
+ S   dconf worker  2257     96063.135878         9   120         0.000000         0.245732         0.000000 0 0 /user.slice
+ Sgvfs-afc-volume  2263  32474339.206180        42   120         0.000000        12.861003         0.000000 0 0 /user.slice
+ Sgvfs-mtp-volume  2307  32474339.202185        45   120         0.000000        13.680486         0.000000 0 0 /user.slice
+ S          gdbus  2315  32474339.426455        86   120         0.000000        10.086022         0.000000 0 0 /user.slice
+ S          gmain  2389    121272.394632         3   120         0.000000         0.044487         0.000000 0 0 /user.slice
+ S          gdbus  2391  33314417.803074      4722   120         0.000000      1089.955481         0.000000 0 0 /user.slice
+ Sibus-extension-  2383  33320597.527577      4851   120         0.000000      2397.314965         0.000000 0 0 /user.slice
+ S          gmain  2395    120169.749680         1   120         0.000000         0.045607         0.000000 0 0 /user.slice
+ S          gdbus  2414   1796650.087627        29   120         0.000000         2.901914         0.000000 0 0 /user.slice
+ S    dbus-daemon  2416  33333419.626396      1346   120         0.000000       166.849780         0.000000 0 0 /user.slice
+ Sat-spi2-registr  2420  33333419.723818      6212   120         0.000000       491.385517         0.000000 0 0 /user.slice
+ S          gmain  2423    121354.295791         1   120         0.000000         0.051880         0.000000 0 0 /user.slice
+ S          gdbus  2424  33320465.229931        60   120         0.000000         9.205257         0.000000 0 0 /user.slice
+ S   dconf worker  2587    142261.587755         5   120         0.000000         0.580397         0.000000 0 0 /user.slice
+ S  fuse mainloop  2443    368991.951689         3   120         0.000000         0.099311         0.000000 0 0 /user.slice
+ Sxdg-permission-  2431    125402.095441         9   120         0.000000         6.082370         0.000000 0 0 /user.slice
+ S          gmain  2432    122880.750307         1   120         0.000000         0.055451         0.000000 0 0 /user.slice
+ S          gmain  2452  33302245.619077        15   120         0.000000         0.552463         0.000000 0 0 /user.slice
+ Sibus-engine-sim  2448  33301434.351496      3160   120         0.000000       349.970444         0.000000 0 0 /user.slice
+ S          gmain  2450    127114.315613         2   120         0.000000         0.060852         0.000000 0 0 /user.slice
+ S          gdbus  2451  33301434.554972      5663   120         0.000000       862.697657         0.000000 0 0 /user.slice
+ S   dconf worker  2548    142227.565908         3   120         0.000000         0.240054         0.000000 0 0 /user.slice
+ S       gsd-wwan  2472  33320465.084075        74   120         0.000000        12.903201         0.000000 0 0 /user.slice
+ S          gdbus  2480  33320465.241952        95   120         0.000000         9.807186         0.000000 0 0 /user.slice
+ S   dconf worker  2538    142226.147974         6   120         0.000000         0.191920         0.000000 0 0 /user.slice
+ S   dconf worker  2482    140868.166841         6   120         0.000000         0.545795         0.000000 0 0 /user.slice
+ S   gsd-datetime  2478  33320465.082369        71   120         0.000000        34.727899         0.000000 0 0 /user.slice
+ S  gsd-smartcard  2484  33320465.090233        78   120         0.000000        15.272008         0.000000 0 0 /user.slice
+ S          gdbus  2493  33320465.233780        68   120         0.000000         9.523787         0.000000 0 0 /user.slice
+ S          gdbus  2499  33320465.234768        77   120         0.000000         9.972877         0.000000 0 0 /user.slice
+ S   gsd-keyboard  2491  33320597.520369       748   120         0.000000       210.908665         0.000000 0 0 /user.slice
+ S          gdbus  2519  33320465.251744       109   120         0.000000        13.821802         0.000000 0 0 /user.slice
+ S      gsd-wacom  2500  33320597.519059      1036   120         0.000000       244.767080         0.000000 0 0 /user.slice
+ S  gsd-xsettings  2502  33320597.587962       953   120         0.000000       257.972911         0.000000 0 0 /user.slice
+ S          gmain  2521  33302245.608323        14   120         0.000000         0.529841         0.000000 0 0 /user.slice
+ S          gdbus  2523  33320465.245829        94   120         0.000000        14.204123         0.000000 0 0 /user.slice
+ S          gmain  2531    142227.130288         1   120         0.000000         0.041216         0.000000 0 0 /user.slice
+ Sgsd-print-notif  2513  33320465.092117       102   120         0.000000        16.815529         0.000000 0 0 /user.slice
+ S          gdbus  2526  33320465.248141        70   120         0.000000         9.137719         0.000000 0 0 /user.slice
+ S          gmain  2528    142224.056018         1   120         0.000000         0.049656         0.000000 0 0 /user.slice
+ S          gdbus  2534  33320465.272896        71   120         0.000000         8.291453         0.000000 0 0 /user.slice
+ S          gmain  2611    200008.093202         8   120         0.000000         0.246527         0.000000 0 0 /user.slice
+ S budgie-:disk$0  2620    148454.671309         1   120         0.000000         0.057622         0.000000 0 0 /user.slice
+ S budgie-:disk$2  2622    148485.736550         1   120         0.000000         0.068824         0.000000 0 0 /user.slice
+ S budgie-:disk$3  2623    148578.749405         1   120         0.000000         0.054625         0.000000 0 0 /user.slice
+ S    vncserverui  2605       212.142673      2604   120         0.000000       222.435798         0.000000 0 0 /system.slice/vncserver-x11-serviced.service
+ Spool-budgie-pan  2645    219496.523000         1   120         0.000000         0.038698         0.000000 0 0 /user.slice
+ Spool-budgie-pan  2655    234716.525520         2   120         0.000000         0.054220         0.000000 0 0 /user.slice
+ S   budgie-panel  6628  27310515.010788       143   120         0.000000         0.901149         0.000000 0 0 /user.slice
+ S   budgie-panel  6629  27310515.101861       156   120         0.000000         0.555612         0.000000 0 0 /user.slice
+ S   budgie-panel  6630  27310515.066817       147   120         0.000000         0.733644         0.000000 0 0 /user.slice
+ Sshowtime_deskto  2641  33333484.482722     10651   120         0.000000      1160.876782         0.000000 0 0 /user.slice
+ S   dconf worker  2643    221750.624193        17   120         0.000000         0.992343         0.000000 0 0 /user.slice
+ S       oldtimer  2651  33332978.382626      2398   120         0.000000       781.839462         0.000000 0 0 /user.slice
+ S gvfsd-metadata  2666  33333900.179217     35947   120         0.000000     10232.023128         0.000000 0 0 /user.slice
+ S          gmain  2674  10745647.681096        25   120         0.000000         1.403857         0.000000 0 0 /user.slice
+ S   dconf worker  2677    363609.381356        41   120         0.000000         2.313684         0.000000 0 0 /user.slice
+ S          gdbus  2679  33314875.351171      1000   120         0.000000       159.223112         0.000000 0 0 /user.slice
+ S          gmain  2675    341034.874484         1   120         0.000000         0.067562         0.000000 0 0 /user.slice
+ S   dconf worker  2676    346945.511177        18   120         0.000000         1.130069         0.000000 0 0 /user.slice
+ S          gmain  2724    366872.182236         1   120         0.000000         0.090941         0.000000 0 0 /user.slice
+ S   dconf worker  2725    369052.257794        17   120         0.000000         0.989900         0.000000 0 0 /user.slice
+ S          gdbus  2726    370014.726112       171   120         0.000000        20.844819         0.000000 0 0 /user.slice
+ S   dconf worker  2709   8966149.602699        23   120         0.000000         3.004406         0.000000 0 0 /user.slice
+ Smate-optimus-ap  2692  33320597.535582       883   120         0.000000       361.052063         0.000000 0 0 /user.slice
+ S           ctrl  2736    366904.551551         8   120         0.000000         0.808104         0.000000 0 0 /user.slice
+ S          gmain  2705    366828.882149         2   120         0.000000         0.043404         0.000000 0 0 /user.slice
+ Sgsd-disk-utilit  2730  32574740.136855        48   120         0.000000         8.100329         0.000000 0 0 /user.slice
+ S   pool-spawner  3102   1496601.571799        17   120         0.000000         1.153136         0.000000 0 0 /user.slice
+ S          gdbus  3103   1783523.903914       854   120         0.000000       122.551578         0.000000 0 0 /user.slice
+ S   dconf worker  3104    768968.473098       198   120         0.000000        14.148283         0.000000 0 0 /user.slice
+ Sevolution-sourc  2817   1497203.279736       242   120         0.000000        94.046701         0.000000 0 0 /user.slice
+ S          gmain  2865    486405.029270        10   120         0.000000         0.252661         0.000000 0 0 /user.slice
+ S    gvfsd-trash  2862  18526321.257029       217   120         0.000000        62.345355         0.000000 0 0 /user.slice
+ Spool-evolution-  2917    369672.300896        10   120         0.000000         0.328029         0.000000 0 0 /user.slice
+ Sevolution-calen  2918    370019.189479        23   120         0.000000         4.770883         0.000000 0 0 /user.slice
+ Spool-evolution-  2922    369685.728193        26   120         0.000000         2.708558         0.000000 0 0 /user.slice
+ S   dconf worker  2934    546661.387713         9   120         0.000000         1.063279         0.000000 0 0 /user.slice
+ S       whoopsie  3075        35.013494       291   120         0.000000        96.156265         0.000000 0 0 /system.slice/whoopsie.service
+ S          gdbus  3080        28.573203       149   120         0.000000        16.405544         0.000000 0 0 /system.slice/whoopsie.service
+ S gnome-software  4958  33320597.679798      2915   120         0.000000      3471.534831         0.000000 0 0 /user.slice
+ S          gdbus  4966   1783523.941965       557   120         0.000000        79.638663         0.000000 0 0 /user.slice
+ S   dconf worker  4967    768968.577726        33   120         0.000000         2.021197         0.000000 0 0 /user.slice
+ Spool-org.gnome.  6098    769229.894501        10   120         0.000000         1.165989         0.000000 0 0 /user.slice
+ SThreadPoolServi  6659  33333628.041378      1622   120         0.000000       165.148187         0.000000 0 0 /user.slice
+ Sgpu-process_cra  6675   1074466.701495         1   120         0.000000         0.101093         0.000000 0 0 /user.slice
+ Sppapi_crash_upl 21608  14652089.888599         1   120         0.000000         0.315697         0.000000 0 0 /user.slice
+ SThreadPoolForeg 22730  33309884.440643      1598   120         0.000000       166.552455         0.000000 0 0 /user.slice
+ S            cat  6638   1073997.309954         8   120         0.000000         1.513652         0.000000 0 0 /user.slice
+ S    nacl_helper  6653   1074250.457155        12   120         0.000000         4.404361         0.000000 0 0 /user.slice
+ S  chrome:disk$1  6693   1074588.639567         1   120         0.000000         0.050945         0.000000 0 0 /user.slice
+ S  chrome:disk$2  6694   1778042.733104         5   120         0.000000         1.282169         0.000000 0 0 /user.slice
+ S          gmain  6742   1074752.061818         1   120         0.000000         0.070196         0.000000 0 0 /user.slice
+ S          gdbus  6748   1074788.435301        71   120         0.000000         7.328697         0.000000 0 0 /user.slice
+ S    MemoryInfra 20128  33173828.756169         8   120         0.000000         2.519891         0.000000 0 0 /user.slice
+ SThreadPoolServi  6696   1767928.247030         7   120         0.000000         0.300413         0.000000 0 0 /user.slice
+ SChrome_ChildIOT  6698  33173828.127523      1504   120         0.000000       124.908030         0.000000 0 0 /user.slice
+ S     Compositor  6900  16627832.384865      5626   120         0.000000      1032.369849         0.000000 0 0 /user.slice
+ SCompositorTileW  6903  13183744.622287      1104   120         0.000000       255.923314         0.000000 0 0 /user.slice
+ SDedicatedWorker  7108  33173828.326826        52   120         0.000000        82.922660         0.000000 0 0 /user.slice
+ SThreadPoolSingl  7109   1079383.115713         9   120         0.000000         2.218652         0.000000 0 0 /user.slice
+ S     Compositor  7081  33326315.063902    185249   120         0.000000     33463.967920         0.000000 0 0 /user.slice
+ SCompositorTileW  7083  32852837.767185     11792   120         0.000000      2693.047352         0.000000 0 0 /user.slice
+ SChrome_ChildIOT  7114  33173828.130868       231   120         0.000000        20.475707         0.000000 0 0 /user.slice
+ S    MemoryInfra 20133  33173828.282225         6   120         0.000000         0.710300         0.000000 0 0 /user.slice
+ S         chrome  7122  33229082.579275       364   120         0.000000       141.524179         0.000000 0 0 /user.slice
+ SThreadPoolServi  7123  32619444.195643         2   120         0.000000         0.251070         0.000000 0 0 /user.slice
+ SChrome_ChildIOT  7125  33173828.134722       551   120         0.000000        47.692051         0.000000 0 0 /user.slice
+ S     Compositor  7128   1085989.706072        19   120         0.000000         2.975306         0.000000 0 0 /user.slice
+ S    MemoryInfra 20132  33173828.380759         5   120         0.000000         1.117712         0.000000 0 0 /user.slice
+ SChrome_ChildIOT  7392  33333895.579828     46443   120         0.000000      4931.601492         0.000000 0 0 /user.slice
+ S         chrome  7395  33333886.689304     56792   120         0.000000     64331.280738         0.000000 0 0 /user.slice
+ SGpuMemoryThread  7404   1783805.081908      1075   120         0.000000        76.168398         0.000000 0 0 /user.slice
+ SThreadPoolForeg 22464  33320791.943063      1501   120         0.000000       852.484817         0.000000 0 0 /user.slice
+ S      jfsCommit 14705    623648.922570         2   120         0.000000         0.007438         0.000000 0 0 /
+ S      jfsCommit 14707    623657.928383         2   120         0.000000         0.005818         0.000000 0 0 /
+ S     Compositor 19004  32854801.051003     14141   120         0.000000      3176.990234         0.000000 0 0 /user.slice
+ S    MemoryInfra 19102  33173828.590686        24   120         0.000000        14.090707         0.000000 0 0 /user.slice
+ SDedicatedWorker 19186  33173828.321797       334   120         0.000000       602.768784         0.000000 0 0 /user.slice
+ S    MemoryInfra 19340  33173829.002936         9   120         0.000000        11.377810         0.000000 0 0 /user.slice
+ SThreadPoolForeg 19955  33309770.615452       426   120         0.000000       230.736029         0.000000 0 0 /user.slice
+ SThreadPoolServi 19289   1782767.299900         1   120         0.000000         0.159996         0.000000 0 0 /user.slice
+ SChrome_ChildIOT 19291  33173828.133065       374   120         0.000000        40.073245         0.000000 0 0 /user.slice
+ SThreadPoolSingl 19295   1782780.033236         1   120         0.000000         0.086585         0.000000 0 0 /user.slice
+ S    MemoryInfra 20134  33173828.448082         8   120         0.000000         2.259953         0.000000 0 0 /user.slice
+ I   kworker/u8:2 19501   3779476.495265     54817   120         0.000000      1385.121027         0.000000 0 0 /
+ I   kworker/u8:4 19609   4535641.645707     64362   120         0.000000      1507.429326         0.000000 0 0 /
+ S           zoom 19635   1796318.409158        32   120         0.000000         7.892981         0.000000 0 0 /user.slice
+ S     QQmlThread 19657  32597760.176242       467   120         0.000000       218.656423         0.000000 0 0 /user.slice
+ S           zoom 19661  33333697.422985      3578   120         0.000000        83.903648         0.000000 0 0 /user.slice
+ S           zoom 19662  33333895.272856     10715   120         0.000000       286.759918         0.000000 0 0 /user.slice
+ SQt bearer threa 19701   1796691.805744         1   120         0.000000         0.151036         0.000000 0 0 /user.slice
+ S   zoom.network 19730  33333927.122264    176293   120         0.000000     12738.014272         0.000000 0 0 /user.slice
+ Swebrtc_audio_mo 23058  33333502.859576        42   120         0.000000         0.576471         0.000000 0 0 /user.slice
+ Swebrtc_audio_mo 23059  33333539.428694       394   120         0.000000         5.995013         0.000000 0 0 /user.slice
+ Swebrtc_audio_mo 23060  33333548.662086       394   120         0.000000         5.663717         0.000000 0 0 /user.slice
+ S           zoom 23061  33333796.063258       792   120         0.000000        10.223789         0.000000 0 0 /user.slice
+ Ssandbox_ipc_thr 19827   1805566.178599         3   120         0.000000         0.645797         0.000000 0 0 /user.slice
+ S          gmain 19837   1808606.066147         2   120         0.000000         0.116181         0.000000 0 0 /user.slice
+ SCrShutdownDetec 19842   1805694.939289         1   120         0.000000         0.068525         0.000000 0 0 /user.slice
+ SThreadPoolForeg 19844  33331822.952157       222   120         0.000000       140.507142         0.000000 0 0 /user.slice
+ S           code 19855   1819602.334358        74   120         0.000000         6.054374         0.000000 0 0 /user.slice
+ S           code 19857   1819602.935755       148   120         0.000000        20.877461         0.000000 0 0 /user.slice
+ S           code 19858   1819602.525543       168   120         0.000000        20.815553         0.000000 0 0 /user.slice
+ SThreadPoolSingl 19869   1807705.864671         2   120         0.000000         0.333326         0.000000 0 0 /user.slice
+ S           code 19828   1805574.183920        37   120         0.000000        51.981179         0.000000 0 0 /user.slice
+ S           code 19870   1812593.412506        27   120         0.000000        55.547394         0.000000 0 0 /user.slice
+ SGpuMemoryThread 19890  33191626.836750      3794   120         0.000000       244.646452         0.000000 0 0 /user.slice
+ S           code 19897  33333846.437190      5502   120         0.000000       129.427720         0.000000 0 0 /user.slice
+ S           code 19919  33333524.222491     32540   120         0.000000     11429.519974         0.000000 0 0 /user.slice
+ S           code 19929  33172971.570544      7780   120         0.000000       518.638238         0.000000 0 0 /user.slice
+ S           code 19930  33172971.607393      7696   120         0.000000       528.855784         0.000000 0 0 /user.slice
+ S           code 19961  33332989.706850       624   120         0.000000        20.094100         0.000000 0 0 /user.slice
+ S           code 20039  33332955.402617       603   120         0.000000        19.364655         0.000000 0 0 /user.slice
+ SGpuMemoryThread 19942   1809403.966052         5   120         0.000000         0.411169         0.000000 0 0 /user.slice
+ S           code 19957  33333010.851727       601   120         0.000000        18.739745         0.000000 0 0 /user.slice
+ S           code 19959  33333085.371147       586   120         0.000000        16.547136         0.000000 0 0 /user.slice
+ SThreadPoolForeg 22919  33317386.647004       117   120         0.000000         8.771120         0.000000 0 0 /user.slice
+ I   kworker/1:1H 19938   4540391.009290      9686   100         0.000000       191.021520         0.000000 0 0 /
+ SMicrosoft.Pytho 20165   1818722.048529         1   120         0.000000         0.128916         0.000000 0 0 /user.slice
+ SMicrosoft.Pytho 20178   1819137.519275         2   120         0.000000         2.113882         0.000000 0 0 /user.slice
+ SMicrosoft.Pytho 20180   1819154.014129         6   120         0.000000         0.572983         0.000000 0 0 /user.slice
+ SMicrosoft.Pytho 20184   1819567.178061         2   120         0.000000         0.106466         0.000000 0 0 /user.slice
+ I    kworker/1:0 20406   4540842.590836     75226   120         0.000000      1354.132688         0.000000 0 0 /
+ S         chrome 21592  33173831.497875     13282   120         0.000000      8677.317183         0.000000 0 0 /user.slice
+ SChrome_ChildIOT 21595  33173828.129973     11491   120         0.000000      1300.229568         0.000000 0 0 /user.slice
+ SGpuMemoryThread 21596  32855522.329043       195   120         0.000000        17.355313         0.000000 0 0 /user.slice
+ S    MemoryInfra 23432  33173840.253453         4   120         0.000000         0.928058         0.000000 0 0 /user.slice
+ SChrome_ChildIOT 21612  33173828.124734      3222   120         0.000000       403.215634         0.000000 0 0 /user.slice
+ S         chrome 21657  33307770.722576      1202   120         0.000000       747.706046         0.000000 0 0 /user.slice
+ SThreadPoolServi 21658  16096212.947621         5   120         0.000000         0.738963         0.000000 0 0 /user.slice
+ SChrome_ChildIOT 21660  33173828.132604       716   120         0.000000        65.585761         0.000000 0 0 /user.slice
+ SThreadPoolSingl 21664  14925601.849584         1   120         0.000000         0.041883         0.000000 0 0 /user.slice
+ SCompositorTileW 21666  14925599.056266         1   120         0.000000         0.053350         0.000000 0 0 /user.slice
+ S    MemoryInfra 22444  33173828.382176         5   120         0.000000         1.920420         0.000000 0 0 /user.slice
+ S        python3 22321  18526288.279932        85   120         0.000000        85.578475         0.000000 0 0 /user.slice
+ S           bash 22360  28254410.108523       212   120         0.000000        28.576777         0.000000 0 0 /user.slice
+>R           loop 22799  33333940.275947    136355   120         0.000000    633216.518523         0.000000 0 0 /user.slice
+ I    kworker/1:1 22851   3829181.659614     20693   120         0.000000       712.731288         0.000000 0 0 /
+ I   kworker/u8:3 23232   4540757.891123     12903   120         0.000000       196.171178         0.000000 0 0 /
+ I    kworker/1:2 23248   4171058.131627      2114   120         0.000000        75.780981         0.000000 0 0 /
+ SSharedWorker th 23426  33214342.262534        25   120         0.000000        22.702211         0.000000 0 0 /user.slice
+ SChrome_ChildIOT 23316  33173828.130960        32   120         0.000000         3.897414         0.000000 0 0 /user.slice
+ SThreadPoolSingl 23322  32855943.742286         1   120         0.000000         0.082778         0.000000 0 0 /user.slice
+ SCompositorTileW 23323  32855948.190296         1   120         0.000000         0.062683         0.000000 0 0 /user.slice
+ SCompositorTileW 23325  32855942.509785         1   130         0.000000         0.072555         0.000000 0 0 /user.slice
+
+cpu#2, 2200.004 MHz
+  .nr_running                    : 1
+  .nr_switches                   : 5688718
+  .nr_load_updates               : 0
+  .nr_uninterruptible            : 686
+  .next_balance                  : 4295.601024
+  .curr->pid                     : 22824
+  .clock                         : 2834741.731783
+  .clock_task                    : 2834741.731783
+  .avg_idle                      : 901700
+  .max_idle_balance_cost         : 500000
+
+cfs_rq[2]:/user.slice
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 34730580.518145
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : 29783492.110971
+  .nr_spread_over                : 0
+  .nr_running                    : 1
+  .load                          : 1048576
+  .runnable_weight               : 1048576
+  .load_avg                      : 1038
+  .runnable_load_avg             : 1024
+  .util_avg                      : 1018
+  .util_est_enqueued             : 0
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 1047
+  .tg_load_avg                   : 4000
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 2834741.731783
+  .se->vruntime                  : 4392294.842494
+  .se->sum_exec_runtime          : 983816.629920
+  .se->load.weight               : 274092
+  .se->runnable_weight           : 270395
+  .se->avg.load_avg              : 265
+  .se->avg.util_avg              : 1018
+  .se->avg.runnable_load_avg     : 262
+
+cfs_rq[2]:/system.slice/teamviewerd.service
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 937.257630
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -4946151.149544
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 8
+  .runnable_load_avg             : 0
+  .util_avg                      : 4
+  .util_est_enqueued             : 0
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 8
+  .tg_load_avg                   : 9
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 2834559.768124
+  .se->vruntime                  : 179641.284714
+  .se->sum_exec_runtime          : 1317.538164
+  .se->load.weight               : 1048576
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 4
+  .se->avg.util_avg              : 4
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[2]:/system.slice/lightdm.service
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 84652.800973
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -4862435.606201
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 0
+  .runnable_load_avg             : 0
+  .util_avg                      : 0
+  .util_est_enqueued             : 0
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 0
+  .tg_load_avg                   : 9
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 2834195.236640
+  .se->vruntime                  : 179638.925944
+  .se->sum_exec_runtime          : 87417.235235
+  .se->load.weight               : 2
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 0
+  .se->avg.util_avg              : 0
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[2]:/system.slice/docker.service
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 401.670467
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -4946686.736707
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 19
+  .runnable_load_avg             : 0
+  .util_avg                      : 4
+  .util_est_enqueued             : 0
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 19
+  .tg_load_avg                   : 19
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 2834440.417972
+  .se->vruntime                  : 179646.242751
+  .se->sum_exec_runtime          : 276.716315
+  .se->load.weight               : 1048576
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 5
+  .se->avg.util_avg              : 4
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[2]:/system.slice/systemd-journald.service
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 336.721628
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -4946751.685546
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 0
+  .runnable_load_avg             : 0
+  .util_avg                      : 0
+  .util_est_enqueued             : 0
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 0
+  .tg_load_avg                   : 0
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 2834329.835379
+  .se->vruntime                  : 179630.150481
+  .se->sum_exec_runtime          : 396.584675
+  .se->load.weight               : 2
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 0
+  .se->avg.util_avg              : 0
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[2]:/system.slice/rsyslog.service
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 45.240259
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -4947043.166915
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 0
+  .runnable_load_avg             : 0
+  .util_avg                      : 0
+  .util_est_enqueued             : 0
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 0
+  .tg_load_avg                   : 0
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 2834329.910853
+  .se->vruntime                  : 179630.001418
+  .se->sum_exec_runtime          : 65.039973
+  .se->load.weight               : 2
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 0
+  .se->avg.util_avg              : 0
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[2]:/system.slice/accounts-daemon.service
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 65.771745
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -4947022.635429
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 1
+  .runnable_load_avg             : 0
+  .util_avg                      : 0
+  .util_est_enqueued             : 0
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 1
+  .tg_load_avg                   : 1
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 2834433.750643
+  .se->vruntime                  : 179631.721131
+  .se->sum_exec_runtime          : 82.010695
+  .se->load.weight               : 1048576
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 1
+  .se->avg.util_avg              : 0
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[2]:/system.slice
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 179646.242751
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -4767442.164423
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 11
+  .runnable_load_avg             : 0
+  .util_avg                      : 9
+  .util_est_enqueued             : 0
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 55
+  .tg_load_avg                   : 1109
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 2834559.768124
+  .se->vruntime                  : 4391517.503131
+  .se->sum_exec_runtime          : 152580.957397
+  .se->load.weight               : 49932
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 0
+  .se->avg.util_avg              : 9
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[2]:/
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 4392294.842494
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -554793.564680
+  .nr_spread_over                : 0
+  .nr_running                    : 1
+  .load                          : 274092
+  .runnable_weight               : 270395
+  .load_avg                      : 267
+  .runnable_load_avg             : 262
+  .util_avg                      : 1021
+  .util_est_enqueued             : 1
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 0
+  .tg_load_avg                   : 0
+  .throttled                     : 0
+  .throttle_count                : 0
+
+rt_rq[2]:
+  .rt_nr_running                 : 0
+  .rt_nr_migratory               : 0
+  .rt_throttled                  : 0
+  .rt_time                       : 0.118260
+  .rt_runtime                    : 950.000000
+
+dl_rq[2]:
+  .dl_nr_running                 : 0
+  .dl_nr_migratory               : 0
+  .dl_bw->bw                     : 996147
+  .dl_bw->total_bw               : 0
+
+runnable tasks:
+ S           task   PID         tree-key  switches  prio     wait-time             sum-exec        sum-sleep
+-----------------------------------------------------------------------------------------------------------
+ S        cpuhp/2    21    395911.972942        20   120         0.000000         0.267469         0.000000 0 0 /
+ S  idle_inject/2    22        -6.000000         3    49         0.000000         0.000000         0.000000 0 0 /
+ S    migration/2    23         0.000000      3421     0         0.000000       195.554078         0.000000 0 0 /
+ S    ksoftirqd/2    24   4378815.236718      5041   120         0.000000       218.968799         0.000000 0 0 /
+ S        kauditd    36    226442.005061      7631   120         0.000000        47.183858         0.000000 0 0 /
+ S     khungtaskd    39   4286603.334553        25   120         0.000000         4.459011         0.000000 0 0 /
+ S     khugepaged    44   4371990.590135       109   139         0.000000         4.143605         0.000000 0 0 /
+ I     tpm_dev_wq    93        26.391111         2   100         0.000000         0.000591         0.000000 0 0 /
+ S      watchdogd    98         8.999995         2     0         0.000000         0.000000         0.000000 0 0 /
+ I       kthrotld   105        70.237369         2   100         0.000000         0.008531         0.000000 0 0 /
+ I          kstrp   121       181.049127         2   100         0.000000         0.009522         0.000000 0 0 /
+ S      scsi_eh_0   189     23966.901421        31   120         0.000000         0.690931         0.000000 0 0 /
+ I     scsi_tmf_0   190       609.960538         2   100         0.000000         0.012148         0.000000 0 0 /
+ I     scsi_tmf_3   197       630.432156         2   100         0.000000         0.009270         0.000000 0 0 /
+ I   kworker/2:1H   207   1247437.260169     18686   100         0.000000       227.164232         0.000000 0 0 /
+ Ssystemd-journal   267       336.721628      4645   119         0.000000      2061.782729         0.000000 0 0 /system.slice/systemd-journald.service
+ S          gmain   958        65.771745      2373   120         0.000000       149.058522         0.000000 0 0 /system.slice/accounts-daemon.service
+ S          gdbus  1055        55.612941       259   120         0.000000        24.364617         0.000000 0 0 /system.slice/accounts-daemon.service
+ S   avahi-daemon   930       321.055099      9577   120         0.000000      1444.320061         0.000000 0 0 /system.slice/avahi-daemon.service
+ S     bluetoothd   931         4.313854       228   120         0.000000        45.304678         0.000000 0 0 /system.slice/bluetooth.service
+ S           cron   932        11.112961        95   120         0.000000        11.659082         0.000000 0 0 /system.slice/cron.service
+ S          gmain  1045      1955.036156       711   120         0.000000        58.373802         0.000000 0 0 /system.slice/NetworkManager.service
+ S     irqbalance   948        65.687480       344   120         0.000000       203.809037         0.000000 0 0 /system.slice/irqbalance.service
+ S       rsyslogd   954        35.422556        59   120         0.000000         9.669134         0.000000 0 0 /system.slice/rsyslog.service
+ S    in:imuxsock   991        45.131678      2077   120         0.000000       138.865252         0.000000 0 0 /system.slice/rsyslog.service
+ S  rs:main Q:Reg   993        45.240259      1997   120         0.000000       132.152394         0.000000 0 0 /system.slice/rsyslog.service
+ S          snapd  1256      4014.982859       433   120         0.000000       187.790199         0.000000 0 0 /system.slice/snapd.service
+ S          snapd  1258        61.334292        10   120         0.000000         0.149620         0.000000 0 0 /system.slice/snapd.service
+ S          snapd  1259        70.298991         1   120         0.000000         0.046576         0.000000 0 0 /system.slice/snapd.service
+ S          snapd  1282      4184.090289      1240   120         0.000000       357.585971         0.000000 0 0 /system.slice/snapd.service
+ S          snapd  1284      4021.767934      1230   120         0.000000       287.193069         0.000000 0 0 /system.slice/snapd.service
+ S          snapd  1309      4184.072470      2252   120         0.000000       315.360293         0.000000 0 0 /system.slice/snapd.service
+ S          snapd  1310      4153.284114      1803   120         0.000000       460.999990         0.000000 0 0 /system.slice/snapd.service
+ S          snapd  1317      4184.080493       819   120         0.000000       189.939862         0.000000 0 0 /system.slice/snapd.service
+ S          snapd  1973      4192.344338      1012   120         0.000000       191.553997         0.000000 0 0 /system.slice/snapd.service
+ S          snapd  4929      4188.933795       591   120         0.000000       106.180962         0.000000 0 0 /system.slice/snapd.service
+ S       thermald   965        98.002856       341   120         0.000000        50.916906         0.000000 0 0 /system.slice/thermald.service
+ S        udisksd   966       314.321135       532   120         0.000000       241.258803         0.000000 0 0 /system.slice/udisks2.service
+ S          gmain  1001        22.742116         6   120         0.000000         0.304338         0.000000 0 0 /system.slice/udisks2.service
+ S probing-thread  1138       144.035582        12   120         0.000000         0.432692         0.000000 0 0 /system.slice/udisks2.service
+ S wpa_supplicant   967       502.716307       606   120         0.000000      1071.763439         0.000000 0 0 /system.slice/wpa_supplicant.service
+ S   cups-browsed  1059        13.912576       475   120         0.000000        61.391355         0.000000 0 0 /system.slice/cups-browsed.service
+ S          gmain  1124         6.777886         2   120         0.000000         0.128915         0.000000 0 0 /system.slice/ModemManager.service
+ S       winbindd  1083        74.371166      1192   120         0.000000       150.560031         0.000000 0 0 /system.slice/winbind.service
+ S     containerd  1084        54.990498       409   120         0.000000        70.814913         0.000000 0 0 /system.slice/containerd.service
+ S     containerd  1153        28.363860        13   120         0.000000         0.333541         0.000000 0 0 /system.slice/containerd.service
+ S     containerd  1210       105.149429       271   120         0.000000        40.419387         0.000000 0 0 /system.slice/containerd.service
+ S     containerd  1233        98.205975       298   120         0.000000        36.873928         0.000000 0 0 /system.slice/containerd.service
+ S     containerd  1236       105.391025       324   120         0.000000        46.949505         0.000000 0 0 /system.slice/containerd.service
+ S     containerd  6143        94.102550       130   120         0.000000        33.255144         0.000000 0 0 /system.slice/containerd.service
+ S           proc  2717       336.665082      1404   120         0.000000       136.890211         0.000000 0 0 /system.slice/anydesk.service
+ Svncserver-x11-c  1092       216.910461      1377   120         0.000000       434.001271         0.000000 0 0 /system.slice/vncserver-x11-serviced.service
+ S    Xorg:disk$2  1292       141.767187         3   120         0.000000         0.064725         0.000000 0 0 /system.slice/lightdm.service
+ S    InputThread  1325     84644.890943     43623   120         0.000000      8249.497057         0.000000 0 0 /system.slice/lightdm.service
+ S        lightdm  1505     62188.499262        63   120         0.000000        30.289796         0.000000 0 0 /user.slice
+ S        dockerd  1627       393.316674      2897   120         0.000000        43.619599         0.000000 0 0 /system.slice/docker.service
+ S        dockerd  1636       400.415282       611   120         0.000000        76.593908         0.000000 0 0 /system.slice/docker.service
+ S        dockerd  1637       392.311535       375   120         0.000000        78.928611         0.000000 0 0 /system.slice/docker.service
+ S        dockerd  1638       401.872018       224   120         0.000000        47.151196         0.000000 0 0 /system.slice/docker.service
+ S        dockerd  1642       310.838271       281   120         0.000000        20.276777         0.000000 0 0 /system.slice/docker.service
+ S        dockerd  1643       393.598240       865   120         0.000000       142.964846         0.000000 0 0 /system.slice/docker.service
+ S        dockerd  1713       400.605601       554   120         0.000000       114.313418         0.000000 0 0 /system.slice/docker.service
+ S     kerneloops  1610        96.879407        69   120         0.000000       179.118279         0.000000 0 0 /system.slice/kerneloops.service
+ S     kerneloops  1613        96.921984        67   120         0.000000       171.680506         0.000000 0 0 /system.slice/kerneloops.service
+ S    teamviewerd  1619       928.343435      2869   120         0.000000       154.650675         0.000000 0 0 /system.slice/teamviewerd.service
+ S    teamviewerd  1620       932.250687       246   120         0.000000       166.207027         0.000000 0 0 /system.slice/teamviewerd.service
+ S    teamviewerd  1621       928.303761       241   120         0.000000       157.946228         0.000000 0 0 /system.slice/teamviewerd.service
+ S    teamviewerd  1622       928.269831       265   120         0.000000       236.643330         0.000000 0 0 /system.slice/teamviewerd.service
+ S    teamviewerd  1623       931.131568       259   120         0.000000       213.020754         0.000000 0 0 /system.slice/teamviewerd.service
+ S    teamviewerd  1624       928.696938      1420   120         0.000000       207.036775         0.000000 0 0 /system.slice/teamviewerd.service
+ S    teamviewerd  1633       672.276784         4   120         0.000000         0.163598         0.000000 0 0 /system.slice/teamviewerd.service
+ S    teamviewerd  1634        79.806855         6   120         0.000000         0.346035         0.000000 0 0 /system.slice/teamviewerd.service
+ S           none  1647     23733.428943       393   120         0.000000         5.706840         0.000000 0 0 /
+ S        systemd  2185  34718265.858191       514   120         0.000000       431.683103         0.000000 0 0 /user.slice
+ S       (sd-pam)  2186     57028.652728         1   120         0.000000         0.320901         0.000000 0 0 /user.slice
+ S     pulseaudio  2202  34729690.311982    523940   109         0.000000     53862.971176         0.000000 0 0 /user.slice
+ Salsa-sink-ALC32  2326        -9.000000    137046    94         0.000000     19492.536691         0.000000 0 0 /user.slice
+ S     snapd-glib  2338     81587.183597         1   120         0.000000         0.194037         0.000000 0 0 /user.slice
+ Spool-gnome-sess 23544  34720611.239314         4   120         0.000000         0.086472         0.000000 0 0 /user.slice
+ S          gvfsd  2230  34579581.106978       133   120         0.000000        39.884754         0.000000 0 0 /user.slice
+ S          gdbus  2232  34579581.051240       217   120         0.000000        28.265292         0.000000 0 0 /user.slice
+ S     gvfsd-fuse  2241    195765.541593        15   120         0.000000         3.863906         0.000000 0 0 /user.slice
+ S          gmain  2244     63741.161818         1   120         0.000000         0.070756         0.000000 0 0 /user.slice
+ S          gmain  2253     67246.052431         9   120         0.000000         2.813479         0.000000 0 0 /user.slice
+ S          gmain  2269     67410.833399         1   120         0.000000         0.052823         0.000000 0 0 /user.slice
+ S   dconf worker  2291     67486.907001         6   120         0.000000         0.358426         0.000000 0 0 /user.slice
+ Sgoa-identity-se  2295     67711.724766        18   120         0.000000         8.459631         0.000000 0 0 /user.slice
+ S          gmain  2297  34495074.172056      6963   120         0.000000       189.931446         0.000000 0 0 /user.slice
+ S          gdbus  2299     67712.647301        33   120         0.000000         2.520857         0.000000 0 0 /user.slice
+ S      ssh-agent  2354  34727587.990469       282   120         0.000000        11.308239         0.000000 0 0 /user.slice
+ S    ibus-daemon  2377  34719008.605448     15508   120         0.000000      2342.425409         0.000000 0 0 /user.slice
+ S          gdbus  2379  34719008.785984     15740   120         0.000000      3907.326228         0.000000 0 0 /user.slice
+ S          gmain  2384     86057.135023         2   120         0.000000         0.048646         0.000000 0 0 /user.slice
+ S          gdbus  2385     86232.319414        23   120         0.000000         2.353808         0.000000 0 0 /user.slice
+ S          gmain  2397    100086.215695         3   120         0.000000         0.057025         0.000000 0 0 /user.slice
+ S          gdbus  2400  34718307.367099      4389   120         0.000000       956.249486         0.000000 0 0 /user.slice
+ S       ibus-x11  2387  34720263.864422       701   120         0.000000       327.225717         0.000000 0 0 /user.slice
+ Sat-spi-bus-laun  2410   1508519.174817        26   120         0.000000         7.271607         0.000000 0 0 /user.slice
+ S          gmain  2411     97681.673839         1   120         0.000000         0.025350         0.000000 0 0 /user.slice
+ S   dconf worker  2412     99765.812488         7   120         0.000000         0.976428         0.000000 0 0 /user.slice
+ S          gmain  2425  34730519.642166       716   120         0.000000        52.505808         0.000000 0 0 /user.slice
+ S  fuse mainloop  2441    102341.271338         1   120         0.000000         0.143676         0.000000 0 0 /user.slice
+ S          gdbus  2434    102395.801828         9   120         0.000000         0.990594         0.000000 0 0 /user.slice
+ S          gdbus  2454    632111.447260       147   120         0.000000        13.327037         0.000000 0 0 /user.slice
+ Sgsd-usb-protect  2470  34720135.537951        72   120         0.000000        13.849431         0.000000 0 0 /user.slice
+ S          gdbus  2475  34720135.684215        70   120         0.000000        12.395222         0.000000 0 0 /user.slice
+ S          gmain  2488    107494.203423         2   120         0.000000         0.066555         0.000000 0 0 /user.slice
+ S   dconf worker  2489    103288.789081        23   120         0.000000         1.022413         0.000000 0 0 /user.slice
+ S          gmain  2501    103231.106979         1   120         0.000000         0.057856         0.000000 0 0 /user.slice
+ S          gdbus  2503  34720135.677228        68   120         0.000000         8.808836         0.000000 0 0 /user.slice
+ S   dconf worker  2546    103297.477058         6   120         0.000000         0.207734         0.000000 0 0 /user.slice
+ S          gmain  2492    103212.145415         1   120         0.000000         0.051533         0.000000 0 0 /user.slice
+ S   dconf worker  2550    103297.511160         6   120         0.000000         0.241837         0.000000 0 0 /user.slice
+ Sgsd-housekeepin  2485  34720135.552055       268   120         0.000000       268.551139         0.000000 0 0 /user.slice
+ S          gmain  2494    103290.733786        10   120         0.000000         2.062252         0.000000 0 0 /user.slice
+ S          gdbus  2496  34720135.678458        87   120         0.000000         9.826404         0.000000 0 0 /user.slice
+ S          gmain  2498    103288.749180         2   120         0.000000         0.070395         0.000000 0 0 /user.slice
+ S   dconf worker  2539    103297.792884         5   120         0.000000         0.202130         0.000000 0 0 /user.slice
+ S          gdbus  2518  34720135.814868        71   120         0.000000         9.326564         0.000000 0 0 /user.slice
+ S   dconf worker  2522    107268.454695        16   120         0.000000         1.519337         0.000000 0 0 /user.slice
+ S          gmain  2556    103300.635208         1   120         0.000000         0.044458         0.000000 0 0 /user.slice
+ S   dconf worker  2532    103349.691728        14   120         0.000000         0.970131         0.000000 0 0 /user.slice
+ S          gmain  2525    103280.902824         2   120         0.000000         0.041397         0.000000 0 0 /user.slice
+ S     gsd-rfkill  2520  34720135.541975       113   120         0.000000        16.446473         0.000000 0 0 /user.slice
+ S          gdbus  2533  34720135.713479       132   120         0.000000        25.094256         0.000000 0 0 /user.slice
+ Sgsd-screensaver  2529  34720135.546042        67   120         0.000000        12.257198         0.000000 0 0 /user.slice
+ S          gdbus  2578  34720135.683673        92   120         0.000000        11.516604         0.000000 0 0 /user.slice
+ S         colord  2558        72.641207       503   120         0.000000       206.495043         0.000000 0 0 /system.slice/colord.service
+ S  dconf-service  2574  34514036.156141       245   120         0.000000        74.014579         0.000000 0 0 /user.slice
+ S          gmain  2575    103313.650144         1   120         0.000000         0.084634         0.000000 0 0 /user.slice
+ S          gdbus  2579  34514034.119931       208   120         0.000000        16.621319         0.000000 0 0 /user.slice
+ S   dconf worker  2613  34514034.186268        89   120         0.000000         3.683714         0.000000 0 0 /user.slice
+ S budgie-:disk$1  2621    108130.735982         1   120         0.000000         0.051606         0.000000 0 0 /user.slice
+ S    vncserverui  2619       200.806443       276   120         0.000000        68.746457         0.000000 0 0 /system.slice/vncserver-x11-serviced.service
+ S          gmain  2627  34728668.162978       775   120         0.000000        65.771908         0.000000 0 0 /user.slice
+ S          gdbus  2629  34727605.152297      3333   120         0.000000      1053.121810         0.000000 0 0 /user.slice
+ Spool-budgie-pan  2647    109053.311751         1   120         0.000000         0.046511         0.000000 0 0 /user.slice
+ S       oldtimer  2669  34726270.321068      1158   120         0.000000       721.325884         0.000000 0 0 /user.slice
+ S          gmain  2661  34495074.164259      6831   120         0.000000       166.237966         0.000000 0 0 /user.slice
+ S  budgie-daemon  2671  34730011.881476     15047   120         0.000000      2245.613073         0.000000 0 0 /user.slice
+ S   nemo-desktop  2688  34729711.703377      4669   120         0.000000      1427.971456         0.000000 0 0 /user.slice
+ S          gdbus  2710  21988731.810618       374   120         0.000000        39.452408         0.000000 0 0 /user.slice
+ S    threaded-ml  6658  34728392.366473        18   120         0.000000         1.127511         0.000000 0 0 /user.slice
+ S           wrk0  2742   1297632.465039        18   120         0.000000         2.455802         0.000000 0 0 /user.slice
+ S           proc  2754  34729054.952292      1431   120         0.000000       129.758360         0.000000 0 0 /user.slice
+ S          gdbus  2815   1528334.118001      2036   120         0.000000       420.891225         0.000000 0 0 /user.slice
+ S          gdbus  2716   1528334.243422      3529   120         0.000000       664.617803         0.000000 0 0 /user.slice
+ S          gmain  2744  34453625.501678         4   120         0.000000         0.193955         0.000000 0 0 /user.slice
+ S          gmain  2731    411334.649648         4   120         0.000000         0.159700         0.000000 0 0 /user.slice
+ S   dconf worker  2760    230091.101111       110   120         0.000000         4.273852         0.000000 0 0 /user.slice
+ S          gmain  2763    193151.937998         1   120         0.000000         0.044265         0.000000 0 0 /user.slice
+ S          gdbus  2755  34019681.083551        44   120         0.000000         7.849464         0.000000 0 0 /user.slice
+ S          gmain  3101  34728668.231357       779   120         0.000000        79.759779         0.000000 0 0 /user.slice
+ S     bamfdaemon  2857  34730011.880547     13817   120         0.000000      2123.665266         0.000000 0 0 /user.slice
+ S   dconf worker  2866    196257.165853        15   120         0.000000         0.791035         0.000000 0 0 /user.slice
+ S          gdbus  2869  34729885.870991      4735   120         0.000000       239.645687         0.000000 0 0 /user.slice
+ Sevolution-calen  2893   1307013.652514       339   120         0.000000        99.935186         0.000000 0 0 /user.slice
+ S          gdbus  2898   1304681.603517       401   120         0.000000        39.589302         0.000000 0 0 /user.slice
+ S   dconf worker  2904    199052.439847        32   120         0.000000         0.654576         0.000000 0 0 /user.slice
+ S          gmain  2928    199561.889272         3   120         0.000000         0.087610         0.000000 0 0 /user.slice
+ Sevolution-addre  2935    203352.825510        19   120         0.000000        20.615775         0.000000 0 0 /user.slice
+ Spool-evolution-  2946    203353.075773         4   120         0.000000         0.342244         0.000000 0 0 /user.slice
+ S          gmain  3078         2.374767        19   120         0.000000         0.950259         0.000000 0 0 /system.slice/whoopsie.service
+ S          fwupd  3679       136.390112      1528   120         0.000000       444.015510         0.000000 0 0 /system.slice/fwupd.service
+ SGUsbEventThread  3702       135.191169      1392   120         0.000000        83.983138         0.000000 0 0 /system.slice/fwupd.service
+ S          gmain  4965  34729616.453430       835   120         0.000000        54.087556         0.000000 0 0 /user.slice
+ Spool-org.gnome.  6096    727291.882881         4   120         0.000000         1.326575         0.000000 0 0 /user.slice
+ Supdate-notifier  4961  34720263.864413       636   120         0.000000       180.455035         0.000000 0 0 /user.slice
+ S          gmain  4962  34730519.661586       881   120         0.000000        74.588417         0.000000 0 0 /user.slice
+ S         chrome  6657    888108.717413         1   120         0.000000         0.348626         0.000000 0 0 /user.slice
+ S          gdbus  6667  34719008.631945      3975   120         0.000000       475.604763         0.000000 0 0 /user.slice
+ SBluez D-Bus thr  6669   1503574.238534        40   120         0.000000         5.084055         0.000000 0 0 /user.slice
+ SCompositorTileW  6673  34719021.239186     31420   120         0.000000     13338.740121         0.000000 0 0 /user.slice
+ SBrowserWatchdog  6679  34533142.647144       106   120         0.000000         3.270397         0.000000 0 0 /user.slice
+ SThreadPoolSingl  6683  34485892.291114       216   120         0.000000        39.512791         0.000000 0 0 /user.slice
+ S         chrome  6645    888149.257849       258   120         0.000000       173.453081         0.000000 0 0 /user.slice
+ S  chrome:disk$0  6692   1491275.854164         7   120         0.000000         0.631844         0.000000 0 0 /user.slice
+ S  chrome:disk$3  6695   1491411.239924         6   120         0.000000         1.769530         0.000000 0 0 /user.slice
+ S    GpuWatchdog  6701  34727675.446956       172   120         0.000000        22.485470         0.000000 0 0 /user.slice
+ SThreadPoolServi  6702  34021467.696633         4   120         0.000000         0.134725         0.000000 0 0 /user.slice
+ SChrome_ChildIOT  6704  34720131.744398    141504   120         0.000000     18403.258338         0.000000 0 0 /user.slice
+ SVizCompositorTh  6705  34719038.194389    217911   120         0.000000     51015.519088         0.000000 0 0 /user.slice
+ SThreadPoolForeg 23532  34727590.382506         2   120         0.000000         0.135354         0.000000 0 0 /user.slice
+ S         chrome  6681  34540560.742623        25   120         0.000000        42.444925         0.000000 0 0 /user.slice
+ SThreadPoolServi  6684  34717919.336062       592   120         0.000000        47.330337         0.000000 0 0 /user.slice
+ SThreadPoolForeg 20119  34718597.673102      1460   120         0.000000       232.507626         0.000000 0 0 /user.slice
+ SThreadPoolForeg 23115  34727589.904102       833   120         0.000000        87.715692         0.000000 0 0 /user.slice
+ SThreadPoolForeg 23203  34716820.555160         8   120         0.000000         0.275511         0.000000 0 0 /user.slice
+ S         chrome  6894  34717383.961515      8124   120         0.000000      7721.515081         0.000000 0 0 /user.slice
+ SChrome_ChildIOT  6897  34717383.845667     15537   120         0.000000      1040.068269         0.000000 0 0 /user.slice
+ SCompositorTileW  6904  16277952.110163        96   130         0.000000        29.705687         0.000000 0 0 /user.slice
+ SThreadPoolServi  7076  34717751.726313        48   120         0.000000         4.065734         0.000000 0 0 /user.slice
+ SChrome_ChildIOT  7078  34717384.162487    112881   120         0.000000     12676.698566         0.000000 0 0 /user.slice
+ SThreadPoolSingl  7082  34717751.691019       556   120         0.000000        41.803271         0.000000 0 0 /user.slice
+ SCompositorTileW  7084  34471532.428625     11833   120         0.000000      2709.546057         0.000000 0 0 /user.slice
+ SDedicatedWorker  7179  34540560.122121        56   120         0.000000        46.355671         0.000000 0 0 /user.slice
+ SDedicatedWorker  7180  34540560.074146        90   120         0.000000        39.463906         0.000000 0 0 /user.slice
+ SDedicatedWorker  7181  34540560.066782        91   120         0.000000        52.355442         0.000000 0 0 /user.slice
+ S    MemoryInfra  7225  34540560.765782        20   120         0.000000        22.509740         0.000000 0 0 /user.slice
+ SDedicatedWorker 18605  34540560.062873        94   120         0.000000      2456.745770         0.000000 0 0 /user.slice
+ SDedicatedWorker 18825  34540560.130514      1195   120         0.000000      4971.784824         0.000000 0 0 /user.slice
+ SThreadPoolForeg 23478  34726263.126079       169   120         0.000000       234.880546         0.000000 0 0 /user.slice
+ SThreadPoolForeg 23549  34726258.070633        38   120         0.000000        46.327723         0.000000 0 0 /user.slice
+ S         chrome  7110  34727894.170413       412   120         0.000000       104.385422         0.000000 0 0 /user.slice
+ SGpuMemoryThread  7126    893297.439825         3   120         0.000000         0.158682         0.000000 0 0 /user.slice
+ SCompositorTileW  7131    893442.831948         2   120         0.000000         0.253128         0.000000 0 0 /user.slice
+ SCompositorTileW  7132    893312.669805         1   130         0.000000         0.121820         0.000000 0 0 /user.slice
+ SThreadPoolForeg  7177  34718991.937460        82   120         0.000000         6.863532         0.000000 0 0 /user.slice
+ SThreadPoolSingl  7397    915629.400764         2   120         0.000000         0.048628         0.000000 0 0 /user.slice
+ SCompositorTileW  7398   1511562.822960        15   120         0.000000         0.813795         0.000000 0 0 /user.slice
+ SCompositorTileW  7400    915635.686190         1   130         0.000000         0.060910         0.000000 0 0 /user.slice
+ SChrome_ChildIOT  7403  34729672.794881     40388   120         0.000000      3358.603463         0.000000 0 0 /user.slice
+ S          Media 18388  24433106.774761       313   120         0.000000         9.689154         0.000000 0 0 /user.slice
+ I  xfs_mru_cache 14700    584591.437714         2   100         0.000000         0.052126         0.000000 0 0 /
+ S         chrome 18998  34729709.401510     19170   120         0.000000     27688.767576         0.000000 0 0 /user.slice
+ SChrome_ChildIOT 19001  34727588.114939     14936   120         0.000000      1606.387727         0.000000 0 0 /user.slice
+ SCompositorTileW 19006  18255800.177127      2483   120         0.000000      1111.052515         0.000000 0 0 /user.slice
+ SThreadPoolForeg 23467  34717377.441964        35   120         0.000000        56.942172         0.000000 0 0 /user.slice
+ SThreadPoolServi 19165   1501126.923706        13   120         0.000000         1.060534         0.000000 0 0 /user.slice
+ SThreadPoolForeg 23523  34722183.189091         2   120         0.000000         0.103458         0.000000 0 0 /user.slice
+ S         chrome 19288  34710568.333101       411   120         0.000000       142.083113         0.000000 0 0 /user.slice
+ S     Compositor 19294  34710564.738205       132   120         0.000000        19.022603         0.000000 0 0 /user.slice
+ SThreadPoolForeg 23521  34719945.289365         2   120         0.000000         0.044938         0.000000 0 0 /user.slice
+ I    kworker/2:1 19530   4392255.323368      7161   120         0.000000      1205.429054         0.000000 0 0 /
+ S           zoom 19642   1508219.102641         1   120         0.000000         0.038044         0.000000 0 0 /user.slice
+ S           zoom 19665   1508307.012656         1   120         0.000000         0.033721         0.000000 0 0 /user.slice
+ S           zoom 19670  34730495.017667      2580   120         0.000000        56.327429         0.000000 0 0 /user.slice
+ S    zoom:disk$0 19695   1508506.491320         1   120         0.000000         0.130198         0.000000 0 0 /user.slice
+ S    zoom:disk$3 19698   1508523.212450         1   120         0.000000         0.027561         0.000000 0 0 /user.slice
+ S        QThread 19704   1508867.831648         1   120         0.000000         0.110307         0.000000 0 0 /user.slice
+ S     QQmlThread 20450  11487909.993209         8   120         0.000000         1.016218         0.000000 0 0 /user.slice
+ S        QThread 23062  34043503.932597         3   120         0.000000         0.275278         0.000000 0 0 /user.slice
+ S        QThread 23064  34043504.325631         4   120         0.000000         0.302259         0.000000 0 0 /user.slice
+ S             sh 19787   1514624.250660        38   120         0.000000         2.321289         0.000000 0 0 /user.slice
+ S          gdbus 19791   1514626.621439        12   120         0.000000         1.614709         0.000000 0 0 /user.slice
+ S           code 19824  34730485.374183     31451   120         0.000000      9500.452690         0.000000 0 0 /user.slice
+ SThreadPoolServi 19829  34495074.199289       126   120         0.000000         8.924539         0.000000 0 0 /user.slice
+ SChrome_IOThread 19831  34730485.403984     16170   120         0.000000      2579.988863         0.000000 0 0 /user.slice
+ S           code 19833  34719216.375864       668   120         0.000000       435.354694         0.000000 0 0 /user.slice
+ S           code 19834  34719213.847701       782   120         0.000000       368.258998         0.000000 0 0 /user.slice
+ S           code 19835  34719214.752724       638   120         0.000000       383.956283         0.000000 0 0 /user.slice
+ S           code 19852  34719211.479794       570   120         0.000000        21.018657         0.000000 0 0 /user.slice
+ SThreadPoolSingl 19853  21667854.821687        17   120         0.000000        16.395716         0.000000 0 0 /user.slice
+ S           code 19871  34728810.245461       588   120         0.000000        19.870252         0.000000 0 0 /user.slice
+ SCacheThread_Blo 19884  34719931.722378       278   120         0.000000        18.447204         0.000000 0 0 /user.slice
+ S    GpuWatchdog 19864  34727588.022184       163   120         0.000000        12.789610         0.000000 0 0 /user.slice
+ SThreadPoolServi 19865   1517810.352378         1   120         0.000000         0.157615         0.000000 0 0 /user.slice
+ SThreadPoolForeg 19866  34728046.913064        39   120         0.000000         2.924043         0.000000 0 0 /user.slice
+ SChrome_ChildIOT 19867  34730504.375677     21788   120         0.000000      2651.990210         0.000000 0 0 /user.slice
+ S     Compositor 19892  34730504.589988     48683   120         0.000000     11432.976594         0.000000 0 0 /user.slice
+ SCompositorTileW 19894  34730483.884454      8864   120         0.000000      3925.728162         0.000000 0 0 /user.slice
+ S           code 19900  34712982.118797      4206   120         0.000000       102.112694         0.000000 0 0 /user.slice
+ S           code 19901  34724318.068901      4203   120         0.000000       107.697932         0.000000 0 0 /user.slice
+ S           code 19902  34712982.180282      4154   120         0.000000       105.940586         0.000000 0 0 /user.slice
+ S           code 19903  34724318.091174      4170   120         0.000000       102.046652         0.000000 0 0 /user.slice
+ S           code 19927  34729314.258142       581   120         0.000000        16.386579         0.000000 0 0 /user.slice
+ S           code 19928  34729307.380586       585   120         0.000000        15.988939         0.000000 0 0 /user.slice
+ S          gmain 19968   1520665.484930         1   120         0.000000         0.053330         0.000000 0 0 /user.slice
+ S          gdbus 19972  34724318.207317       166   120         0.000000        18.990149         0.000000 0 0 /user.slice
+ SThreadPoolForeg 19921  34729999.318238        38   120         0.000000         2.123564         0.000000 0 0 /user.slice
+ S           code 19922   1518871.270369         1   120         0.000000         0.214912         0.000000 0 0 /user.slice
+ S           code 19923  34481907.367942       986   120         0.000000       710.281122         0.000000 0 0 /user.slice
+ S           code 19924  34481907.369163      1118   120         0.000000       746.203971         0.000000 0 0 /user.slice
+ S           code 19925  34568127.558810      1343   120         0.000000       894.061089         0.000000 0 0 /user.slice
+ S           code 19931  34527181.020142      7674   120         0.000000       507.300656         0.000000 0 0 /user.slice
+ S           code 19932  34527181.056690      7626   120         0.000000       518.186610         0.000000 0 0 /user.slice
+ S           code 19964  34728836.240223       582   120         0.000000        16.443520         0.000000 0 0 /user.slice
+ S           code 19965  34729407.884316       586   120         0.000000        16.826300         0.000000 0 0 /user.slice
+ S           code 19966  34729406.698020       581   120         0.000000        17.806941         0.000000 0 0 /user.slice
+ S           code 19971  34729088.979541       613   120         0.000000        19.834859         0.000000 0 0 /user.slice
+ S           code 19974  34729511.240857       583   120         0.000000        14.674234         0.000000 0 0 /user.slice
+ S           code 19975  34730339.325935       593   120         0.000000        19.245380         0.000000 0 0 /user.slice
+ S           code 19937  34721750.900035     24472   120         0.000000      7928.761961         0.000000 0 0 /user.slice
+ SChrome_ChildIOT 19941  34446227.936612      7224   120         0.000000       765.961258         0.000000 0 0 /user.slice
+ S     Compositor 19944  34721750.571591       337   120         0.000000        23.421715         0.000000 0 0 /user.slice
+ S           code 19948  34548080.257391     25949   120         0.000000       341.876515         0.000000 0 0 /user.slice
+ S           code 19951  34446239.871658     11407   120         0.000000       484.167323         0.000000 0 0 /user.slice
+ S           code 19952  34446239.880344     11349   120         0.000000       456.062236         0.000000 0 0 /user.slice
+ S           code 19953  34446239.897278     11211   120         0.000000       427.460265         0.000000 0 0 /user.slice
+ S           code 19954  34446239.888902      7349   120         0.000000       273.122413         0.000000 0 0 /user.slice
+ S           code 19958  34729356.075066       581   120         0.000000        17.980860         0.000000 0 0 /user.slice
+ SMicrosoft.Pytho 20166   1529338.590887         2   120         0.000000         0.132653         0.000000 0 0 /user.slice
+ SMicrosoft.Pytho 20167  34727568.187335       203   120         0.000000        30.864755         0.000000 0 0 /user.slice
+ SMicrosoft.Pytho 20168   1529347.660823         1   120         0.000000         0.069942         0.000000 0 0 /user.slice
+ SMicrosoft.Pytho 20186  34730409.062024     37113   120         0.000000      6412.813173         0.000000 0 0 /user.slice
+ I   kworker/2:2H 20341   4382289.104023      9785   100         0.000000       172.872693         0.000000 0 0 /
+ S          gmain 20403  34730517.188221       442   120         0.000000        20.820036         0.000000 0 0 /user.slice
+ S    threaded-ml 20416  34729690.391983       169   120         0.000000        11.363630         0.000000 0 0 /user.slice
+ I    kworker/2:2 20432   4030874.214416        13   120         0.000000         0.339837         0.000000 0 0 /
+ SThreadPoolForeg 21594  34718247.554252       173   120         0.000000        50.810298         0.000000 0 0 /user.slice
+ SThreadPoolSingl 21599  17968981.850939         1   120         0.000000         0.081761         0.000000 0 0 /user.slice
+ S         chrome 21609  34540561.095237      2062   120         0.000000       808.634784         0.000000 0 0 /user.slice
+ SThreadPoolServi 21610  17994018.180676         1   120         0.000000         0.131833         0.000000 0 0 /user.slice
+ S    MemoryInfra 23433  34540569.410886        10   120         0.000000         0.406259         0.000000 0 0 /user.slice
+ SThreadPoolForeg 21659  34725927.170912       230   120         0.000000        59.024420         0.000000 0 0 /user.slice
+ S     Compositor 21663  19468972.665683        36   120         0.000000         1.403386         0.000000 0 0 /user.slice
+>R           loop 22824  34730580.518145    137285   120         0.000000    619686.653676         0.000000 0 0 /user.slice
+ S            top 22930  34730476.599399      4215   120         0.000000       128.540578         0.000000 0 0 /user.slice
+ I    kworker/2:0 23054   4030940.643705        17   120         0.000000         1.578089         0.000000 0 0 /
+ S         chrome 23277  34719954.992099     20116   120         0.000000      5879.245410         0.000000 0 0 /user.slice
+ SThreadPoolServi 23278  34480976.065203        11   120         0.000000         0.896546         0.000000 0 0 /user.slice
+ SThreadPoolForeg 23279  34730304.066887       823   120         0.000000       225.344976         0.000000 0 0 /user.slice
+ SChrome_ChildIOT 23280  34719182.124722     12831   120         0.000000       787.882824         0.000000 0 0 /user.slice
+ S     Compositor 23283  34719010.850577     17596   120         0.000000      1489.729151         0.000000 0 0 /user.slice
+ SThreadPoolSingl 23284  34480976.047524        54   120         0.000000         2.312444         0.000000 0 0 /user.slice
+ S          Media 23333  34480556.488238        55   120         0.000000         1.986770         0.000000 0 0 /user.slice
+ SThreadPoolForeg 23315  34727597.386200         9   120         0.000000         0.701399         0.000000 0 0 /user.slice
+ SGpuMemoryThread 23317  34475450.943774         2   120         0.000000         0.149730         0.000000 0 0 /user.slice
+ I    kworker/2:3 23421   4030883.204605         3   120         0.000000         0.029958         0.000000 0 0 /
+
+cpu#3, 2200.004 MHz
+  .nr_running                    : 1
+  .nr_switches                   : 5482685
+  .nr_load_updates               : 0
+  .nr_uninterruptible            : 1722
+  .next_balance                  : 4295.601048
+  .curr->pid                     : 23537
+  .clock                         : 2834743.770664
+  .clock_task                    : 2834743.770664
+  .avg_idle                      : 727556
+  .max_idle_balance_cost         : 500000
+
+cfs_rq[3]:/system.slice/thermald.service
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 80.911354
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -4947007.495820
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 0
+  .runnable_load_avg             : 0
+  .util_avg                      : 0
+  .util_est_enqueued             : 0
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 0
+  .tg_load_avg                   : 0
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 2834504.091282
+  .se->vruntime                  : 160899.440911
+  .se->sum_exec_runtime          : 87.847068
+  .se->load.weight               : 2
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 0
+  .se->avg.util_avg              : 0
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[3]:/user.slice
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 31895906.994393
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : 26948818.587219
+  .nr_spread_over                : 0
+  .nr_running                    : 1
+  .load                          : 1048576
+  .runnable_weight               : 1048576
+  .load_avg                      : 829
+  .runnable_load_avg             : 608
+  .util_avg                      : 698
+  .util_est_enqueued             : 0
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 829
+  .tg_load_avg                   : 4000
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 2834743.770664
+  .se->vruntime                  : 4895905.454691
+  .se->sum_exec_runtime          : 1116321.013388
+  .se->load.weight               : 255957
+  .se->runnable_weight           : 255957
+  .se->avg.load_avg              : 174
+  .se->avg.util_avg              : 706
+  .se->avg.runnable_load_avg     : 174
+
+cfs_rq[3]:/system.slice/snapd.service
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 1645.462512
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -4945442.944662
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 0
+  .runnable_load_avg             : 0
+  .util_avg                      : 0
+  .util_est_enqueued             : 0
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 0
+  .tg_load_avg                   : 0
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 2834522.453391
+  .se->vruntime                  : 160900.074155
+  .se->sum_exec_runtime          : 1820.992656
+  .se->load.weight               : 1048576
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 0
+  .se->avg.util_avg              : 0
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[3]:/system.slice/teamviewerd.service
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 601.386541
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -4946487.020633
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 1
+  .runnable_load_avg             : 0
+  .util_avg                      : 1
+  .util_est_enqueued             : 0
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 1
+  .tg_load_avg                   : 9
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 2834720.142880
+  .se->vruntime                  : 160899.449009
+  .se->sum_exec_runtime          : 890.833798
+  .se->load.weight               : 2
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 0
+  .se->avg.util_avg              : 0
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[3]:/system.slice
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 160908.343803
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -4786180.063371
+  .nr_spread_over                : 0
+  .nr_running                    : 0
+  .load                          : 0
+  .runnable_weight               : 0
+  .load_avg                      : 0
+  .runnable_load_avg             : 0
+  .util_avg                      : 1
+  .util_est_enqueued             : 0
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 0
+  .tg_load_avg                   : 1109
+  .throttled                     : 0
+  .throttle_count                : 0
+  .se->exec_start                : 2834720.142880
+  .se->vruntime                  : 4895854.417324
+  .se->sum_exec_runtime          : 134007.381138
+  .se->load.weight               : 2
+  .se->runnable_weight           : 2
+  .se->avg.load_avg              : 0
+  .se->avg.util_avg              : 0
+  .se->avg.runnable_load_avg     : 0
+
+cfs_rq[3]:/
+  .exec_clock                    : 0.000000
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 4895905.454691
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -51182.952483
+  .nr_spread_over                : 0
+  .nr_running                    : 1
+  .load                          : 255957
+  .runnable_weight               : 255957
+  .load_avg                      : 336
+  .runnable_load_avg             : 174
+  .util_avg                      : 712
+  .util_est_enqueued             : 661
+  .removed.load_avg              : 0
+  .removed.util_avg              : 0
+  .removed.runnable_sum          : 0
+  .tg_load_avg_contrib           : 0
+  .tg_load_avg                   : 0
+  .throttled                     : 0
+  .throttle_count                : 0
+
+rt_rq[3]:
+  .rt_nr_running                 : 0
+  .rt_nr_migratory               : 0
+  .rt_throttled                  : 0
+  .rt_time                       : 0.000000
+  .rt_runtime                    : 950.000000
+
+dl_rq[3]:
+  .dl_nr_running                 : 0
+  .dl_nr_migratory               : 0
+  .dl_bw->bw                     : 996147
+  .dl_bw->total_bw               : 0
+
+runnable tasks:
+ S           task   PID         tree-key  switches  prio     wait-time             sum-exec        sum-sleep
+-----------------------------------------------------------------------------------------------------------
+ S        systemd     1       233.493480      4023   120         0.000000      2563.788116         0.000000 0 0 /init.scope
+ I      rcu_sched    11   4895888.178746    261334   120         0.000000      4694.418062         0.000000 0 0 /
+ S        cpuhp/3    27    520858.734951        20   120         0.000000         0.270963         0.000000 0 0 /
+ S  idle_inject/3    28        -6.000000         3    49         0.000000         0.000000         0.000000 0 0 /
+ S    migration/3    29        98.547362      2286     0         0.000000       175.777062         0.000000 0 0 /
+ S    ksoftirqd/3    30   4895847.605289     33716   120         0.000000       885.045403         0.000000 0 0 /
+ I   kworker/3:0H    32   1636791.225555        11   100         0.000000         0.389106         0.000000 0 0 /
+ Srcu_tasks_kthre    35         7.951419         2   120         0.000000         0.000000         0.000000 0 0 /
+ S     oom_reaper    40        16.955239         2   120         0.000000         0.000000         0.000000 0 0 /
+ I      writeback    41        16.955239         2   100         0.000000         0.000000         0.000000 0 0 /
+ I        kblockd    91        16.981640         2   100         0.000000         0.000000         0.000000 0 0 /
+ I        ata_sff    94        16.983947         2   100         0.000000         0.002307         0.000000 0 0 /
+ I     devfreq_wq    97        25.983942         2   100         0.000000         0.000000         0.000000 0 0 /
+ S  irq/43-pciehp   106         0.000000         2    49         0.000000         0.019511         0.000000 0 0 /
+ I  ipv6_addrconf   112        73.794276         2   100         0.000000         0.009823         0.000000 0 0 /
+ S      scsi_eh_1   191     26627.162887        29   120         0.000000         0.624382         0.000000 0 0 /
+ S          loop0   301    375057.312397        97   100         0.000000         2.180589         0.000000 0 0 /
+ S          loop1   311    375053.538647       178   100         0.000000         4.214548         0.000000 0 0 /
+ S          loop2   312    375057.580758       562   100         0.000000        10.800866         0.000000 0 0 /
+ S          loop4   315    375057.570203       764   100         0.000000        44.685381         0.000000 0 0 /
+ S          loop5   334    375062.805747       123   100         0.000000         6.573699         0.000000 0 0 /
+ S          loop6   344    375063.500224       104   100         0.000000         3.249162         0.000000 0 0 /
+ S          loop7   345    375072.176124        99   100         0.000000         5.232937         0.000000 0 0 /
+ S          loop9   347    375057.312769       498   100         0.000000        21.273552         0.000000 0 0 /
+ S         loop10   348    375059.053306       190   100         0.000000         3.585012         0.000000 0 0 /
+ S         loop11   349    375071.901501       285   100         0.000000         8.300945         0.000000 0 0 /
+ Ssystemd-timesyn   787         2.179812       191   120         0.000000       154.150430         0.000000 0 0 /system.slice/systemd-timesyncd.service
+ S          acpid   926        34.866806      2239   120         0.000000       257.888863         0.000000 0 0 /system.slice/acpid.service
+ S    dbus-daemon   935       678.940359      6520   120         0.000000      2356.263268         0.000000 0 0 /system.slice/dbus.service
+ Snetworkd-dispat   950        22.509881       427   120         0.000000       198.211771         0.000000 0 0 /system.slice/networkd-dispatcher.service
+ S        polkitd   952        68.327248      3228   120         0.000000       506.362833         0.000000 0 0 /system.slice/polkit.service
+ S          gdbus  1054        68.228995      3112   120         0.000000       185.995339         0.000000 0 0 /system.slice/polkit.service
+ S          snapd   956        32.756899      1069   120         0.000000       671.072105         0.000000 0 0 /system.slice/snapd.service
+ S          snapd  1255      1640.212936     45186   120         0.000000       511.053133         0.000000 0 0 /system.slice/snapd.service
+ S          snapd  1257      1640.618112      3198   120         0.000000       547.530739         0.000000 0 0 /system.slice/snapd.service
+ S          snapd  1308      1640.501367      2656   120         0.000000       709.704691         0.000000 0 0 /system.slice/snapd.service
+ S          snapd  1324      1645.462512      2988   120         0.000000       643.112676         0.000000 0 0 /system.slice/snapd.service
+ S          snapd  1971      1636.617544      3513   120         0.000000      2042.006737         0.000000 0 0 /system.slice/snapd.service
+ S          snapd  4930      1630.771108       404   120         0.000000        69.303339         0.000000 0 0 /system.slice/snapd.service
+ S          gmain  1008        19.912348         1   120         0.000000         0.094171         0.000000 0 0 /system.slice/switcheroo-control.service
+ S systemd-logind   964        71.659701      6077   120         0.000000       453.050429         0.000000 0 0 /system.slice/systemd-logind.service
+ S          gdbus  1052       510.920909        93   120         0.000000        11.503695         0.000000 0 0 /system.slice/udisks2.service
+ S     containerd  1152        74.486418      2243   120         0.000000        43.504950         0.000000 0 0 /system.slice/containerd.service
+ S     containerd  1155        74.171829       384   120         0.000000        66.140838         0.000000 0 0 /system.slice/containerd.service
+ S     containerd  1156         8.333395         1   120         0.000000         0.028225         0.000000 0 0 /system.slice/containerd.service
+ S     containerd  1232        10.450868         1   120         0.000000         0.134005         0.000000 0 0 /system.slice/containerd.service
+ S     containerd  1234        81.527501       496   120         0.000000        76.324388         0.000000 0 0 /system.slice/containerd.service
+ S     containerd  6103        80.469213       405   120         0.000000        51.639023         0.000000 0 0 /system.slice/containerd.service
+ S     containerd 23086        81.573850        72   120         0.000000         0.484185         0.000000 0 0 /system.slice/containerd.service
+ S          gdbus  1142       246.845168       127   120         0.000000        15.904163         0.000000 0 0 /system.slice/anydesk.service
+ S          gmain  1107       422.883780         7   120         0.000000         0.341560         0.000000 0 0 /system.slice/lightdm.service
+ S           sshd  1104        15.313697        22   120         0.000000        17.054310         0.000000 0 0 /system.slice/ssh.service
+ Sunattended-upgr  1159        86.213760       378   120         0.000000       156.972108         0.000000 0 0 /system.slice/unattended-upgrades.service
+ S          gmain  1217        85.805098         2   120         0.000000         0.117845         0.000000 0 0 /system.slice/unattended-upgrades.service
+ S         agetty  1200         2.285281        34   120         0.000000        12.641233         0.000000 0 0 /system.slice/system-getty.slice
+ S       winbindd  1248        22.429400       112   120         0.000000        14.520590         0.000000 0 0 /system.slice/winbind.service
+ S   rtkit-daemon  1359         3.831285       492   120         0.000000        22.217606         0.000000 0 0 /system.slice/rtkit-daemon.service
+ S        upowerd  1466        46.242751       712   120         0.000000       355.821770         0.000000 0 0 /system.slice/upower.service
+ S          gmain  1469         8.025639         1   120         0.000000         0.074224         0.000000 0 0 /system.slice/upower.service
+ S          gdbus  1470        37.391724       317   120         0.000000        43.520258         0.000000 0 0 /system.slice/upower.service
+ S          gdbus  2179     94504.826394        25   120         0.000000         2.070526         0.000000 0 0 /user.slice
+ S        dockerd  1605       393.032097       635   120         0.000000       102.849963         0.000000 0 0 /system.slice/docker.service
+ S        dockerd  1628         7.263942         6   120         0.000000         0.217034         0.000000 0 0 /system.slice/docker.service
+ S    teamviewerd  1617         4.957999         1   120         0.000000         0.183591         0.000000 0 0 /system.slice/teamviewerd.service
+ S    teamviewerd  1618         7.319129         1   120         0.000000         0.051535         0.000000 0 0 /system.slice/teamviewerd.service
+ S    teamviewerd  1625       601.386541     11369   120         0.000000      2702.386521         0.000000 0 0 /system.slice/teamviewerd.service
+ Sgnome-keyring-d  2208  31892844.354222       573   120         0.000000       125.968579         0.000000 0 0 /user.slice
+ S          gdbus  2212  31892844.456631       556   120         0.000000        91.847765         0.000000 0 0 /user.slice
+ S          timer  2468     98138.543940         1   120         0.000000         0.058180         0.000000 0 0 /user.slice
+ S    dbus-daemon  2209  31895887.597088     79678   120         0.000000      8254.173612         0.000000 0 0 /user.slice
+ Sgnome-session-b  2215  31884830.315217       740   120         0.000000       204.291304         0.000000 0 0 /user.slice
+ S          gdbus  2446  31884830.445389       696   120         0.000000        72.917872         0.000000 0 0 /user.slice
+ S   dconf worker  2455     97478.000274        20   120         0.000000         1.246845         0.000000 0 0 /user.slice
+ S     gvfsd-fuse  2236     60981.079718        10   120         0.000000         4.401677         0.000000 0 0 /user.slice
+ S          gdbus  2245    296948.306625        37   120         0.000000         2.557374         0.000000 0 0 /user.slice
+ S          gdbus  2254  31246299.627797       175   120         0.000000        19.903510         0.000000 0 0 /user.slice
+ S          gmain  2286     63226.394607         2   120         0.000000         0.084800         0.000000 0 0 /user.slice
+ S          gmain  2312     63429.232696         1   120         0.000000         0.059668         0.000000 0 0 /user.slice
+ S          gmain  2378     93239.134765         3   120         0.000000         0.111902         0.000000 0 0 /user.slice
+ S   dconf worker  2398    188323.116434        15   120         0.000000         0.897325         0.000000 0 0 /user.slice
+ S   dconf worker  2406     93480.252266        15   120         0.000000         1.674717         0.000000 0 0 /user.slice
+ S          gdbus  2407     93480.584661        27   120         0.000000         2.499697         0.000000 0 0 /user.slice
+ S    ibus-portal  2394  31892844.331181       349   120         0.000000        17.944038         0.000000 0 0 /user.slice
+ S          gdbus  2399  31892844.458054       330   120         0.000000        60.404034         0.000000 0 0 /user.slice
+ Sxdg-desktop-por  2421  31892844.344128       682   120         0.000000        72.178130         0.000000 0 0 /user.slice
+ S          gdbus  2426  31892844.448342       564   120         0.000000        92.706641         0.000000 0 0 /user.slice
+ Sxdg-document-po  2428  31892844.339707       439   120         0.000000        25.000119         0.000000 0 0 /user.slice
+ S          gdbus  2430  31892844.449275       344   120         0.000000        64.749174         0.000000 0 0 /user.slice
+ Sxdg-desktop-por  2447  31884863.844803       828   120         0.000000       379.087270         0.000000 0 0 /user.slice
+ S          gmain  2477    100343.059078         2   120         0.000000         0.068567         0.000000 0 0 /user.slice
+ S    gsd-sharing  2473  31886513.067162      1064   120         0.000000       264.370848         0.000000 0 0 /user.slice
+ S          gdbus  2483  31886513.162980      1063   120         0.000000       314.660809         0.000000 0 0 /user.slice
+ S   dconf worker  2555    111123.912886        14   120         0.000000         0.382795         0.000000 0 0 /user.slice
+ S      gsd-sound  2487  31884830.306091        54   120         0.000000        15.068819         0.000000 0 0 /user.slice
+ S   dconf worker  2557    155270.809130        24   120         0.000000         1.535038         0.000000 0 0 /user.slice
+ S          gdbus  2573  31884830.378063       229   120         0.000000        30.666636         0.000000 0 0 /user.slice
+ S      gsd-power  2512  31884863.819651       936   120         0.000000       240.615136         0.000000 0 0 /user.slice
+ S          gdbus  2535  31884830.372812       352   120         0.000000        40.470991         0.000000 0 0 /user.slice
+ S          gmain  2530    111119.835429         1   120         0.000000         0.056780         0.000000 0 0 /user.slice
+ S          gdbus  2572        98.809618       422   120         0.000000        18.754842         0.000000 0 0 /system.slice/colord.service
+ S          gmain  2580    111155.865122         1   120         0.000000         0.065108         0.000000 0 0 /user.slice
+ S      budgie-wm  2602  31895853.812629    352274   120         0.000000    111444.803205         0.000000 0 0 /user.slice
+ S          gdbus  2614  31884830.373878      1787   120         0.000000       195.503651         0.000000 0 0 /user.slice
+ S    threaded-ml  2639  31893898.753137        21   120         0.000000         0.901183         0.000000 0 0 /user.slice
+ Spool-budgie-pan  2648    163921.134054         1   120         0.000000         0.051417         0.000000 0 0 /user.slice
+ S    threaded-ml  6626  31893898.762051        73   120         0.000000         3.484398         0.000000 0 0 /user.slice
+ S   budgie-panel  6627  27607679.913464        12   120         0.000000         0.885362         0.000000 0 0 /user.slice
+ Sdesktop_weather  2660  31884863.809378       755   120         0.000000       611.244772         0.000000 0 0 /user.slice
+ S          gdbus  2663    264254.083465        31   120         0.000000         2.742640         0.000000 0 0 /user.slice
+ S          gdbus  2668  31895887.644294     64679   120         0.000000      6570.098607         0.000000 0 0 /user.slice
+ Sbudgie-polkit-d  2673  31884863.815541       540   120         0.000000       244.841627         0.000000 0 0 /user.slice
+ S          gdbus  2678    473638.075258        60   120         0.000000         7.550996         0.000000 0 0 /user.slice
+ Sevolution-alarm  2686  31884863.819306      1015   120         0.000000       254.439978         0.000000 0 0 /user.slice
+ Sevolution-alarm  2891    299523.377351        49   120         0.000000         9.067935         0.000000 0 0 /user.slice
+ S   dconf worker  2798    509312.950153         8   120         0.000000         0.795729         0.000000 0 0 /user.slice
+ S          gdbus  2802    510860.110818        52   120         0.000000         5.665200         0.000000 0 0 /user.slice
+ S        anydesk  2696  31884830.297806       313   120         0.000000        88.970943         0.000000 0 0 /user.slice
+ S          gmain  2700    293547.157758         1   120         0.000000         0.073791         0.000000 0 0 /user.slice
+ S          gdbus  2701  31884830.382827       109   120         0.000000        10.278693         0.000000 0 0 /user.slice
+ S   dconf worker  2727    294390.711341        11   120         0.000000         0.703116         0.000000 0 0 /user.slice
+ S           wrk1  2748    294398.164750         1   120         0.000000         0.052134         0.000000 0 0 /user.slice
+ S   dconf worker  2706    294994.161586        32   120         0.000000         6.113013         0.000000 0 0 /user.slice
+ S          gdbus  2707    294994.357825        52   120         0.000000         8.667098         0.000000 0 0 /user.slice
+ Sindicator-appli  2699  31892844.383472      1698   120         0.000000       579.151478         0.000000 0 0 /user.slice
+ S        python3  2702    295031.024016       193   120         0.000000       107.809435         0.000000 0 0 /user.slice
+ S          gdbus  2799    295032.598947        17   120         0.000000         1.254551         0.000000 0 0 /user.slice
+ Sgnome-screensav  2712  31895295.131672      3084   120         0.000000       714.379205         0.000000 0 0 /user.slice
+ S   dconf worker  2745  31431379.862679        31   120         0.000000         2.022962         0.000000 0 0 /user.slice
+ S    threaded-ml 20398  31893898.764170        21   120         0.000000         2.695281         0.000000 0 0 /user.slice
+ S      nm-applet  2723  31886513.306582      3239   120         0.000000       754.924462         0.000000 0 0 /user.slice
+ S   dconf worker  2764    296813.781009        14   120         0.000000         0.973058         0.000000 0 0 /user.slice
+ S          gdbus  2765  31886513.172690       997   120         0.000000       320.606192         0.000000 0 0 /user.slice
+ S     snap-store  2767  31884863.944306      7210   120         0.000000      8409.308418         0.000000 0 0 /user.slice
+ S          gmain  2822    296783.422958         2   120         0.000000         0.036956         0.000000 0 0 /user.slice
+ S          gdbus  2825   1629407.897143       128   120         0.000000        14.957898         0.000000 0 0 /user.slice
+ S          gdbus  2868  11087292.657342        51   120         0.000000         5.546206         0.000000 0 0 /user.slice
+ Spool-evolution-  2925    299312.209752        30   120         0.000000         0.908935         0.000000 0 0 /user.slice
+ S          gdbus  3703        71.036548        87   120         0.000000        11.655975         0.000000 0 0 /system.slice/fwupd.service
+ Spool-org.gnome.  6097   1036579.787846        10   120         0.000000         1.411137         0.000000 0 0 /user.slice
+ S          gmain  6665   1182220.938872         2   120         0.000000         0.105284         0.000000 0 0 /user.slice
+ S   dconf worker  6666   1182230.686115        26   120         0.000000         3.485594         0.000000 0 0 /user.slice
+ SBatteryStatusNo  6775   1183376.265353        21   120         0.000000         2.694534         0.000000 0 0 /user.slice
+ S         chrome  6646   1181976.315975       214   120         0.000000       179.601780         0.000000 0 0 /user.slice
+ S    nacl_helper  6652   1181975.618667        13   120         0.000000         4.466162         0.000000 0 0 /user.slice
+ SChrome_ChildIOT  6686  31895884.319405    191887   120         0.000000     64095.637078         0.000000 0 0 /user.slice
+ SThreadPoolSingl  6901   2979687.491273        52   120         0.000000         5.302735         0.000000 0 0 /user.slice
+ SCompositorTileW  6902  16109024.918216      1184   120         0.000000       246.691318         0.000000 0 0 /user.slice
+ I   kworker/u8:0  7074   4895855.895425    111032   120         0.000000      3210.931039         0.000000 0 0 /
+ SGpuMemoryThread  7079  31449918.898592      2974   120         0.000000       236.735923         0.000000 0 0 /user.slice
+ SCompositorTileW  7085   1870066.698279        22   130         0.000000         9.792952         0.000000 0 0 /user.slice
+ SThreadPoolForeg 23329  31888975.548936       242   120         0.000000       203.703073         0.000000 0 0 /user.slice
+ S    threaded-ml  7119  23051371.802976       381   120         0.000000        25.340386         0.000000 0 0 /user.slice
+ S         chrome  7389  31895884.211819     91236   120         0.000000     20980.919010         0.000000 0 0 /user.slice
+ SThreadPoolServi  7401  31886465.354586        89   120         0.000000         7.538935         0.000000 0 0 /user.slice
+ S     Compositor  7406   1913740.196001      9881   120         0.000000      1825.097494         0.000000 0 0 /user.slice
+ SThreadPoolSingl  7407  31886465.322313       941   120         0.000000        52.012556         0.000000 0 0 /user.slice
+ SCompositorTileW  7408   1898200.549602      1416   120         0.000000       523.148910         0.000000 0 0 /user.slice
+ SCompositorTileW  7409   1898262.168826      1417   120         0.000000       526.898688         0.000000 0 0 /user.slice
+ SCompositorTileW  7410   1897933.010907       192   130         0.000000       130.673182         0.000000 0 0 /user.slice
+ SThreadPoolForeg 23022  31886519.525234        43   120         0.000000         3.388056         0.000000 0 0 /user.slice
+ S      jfsCommit 14704    759707.911551         2   120         0.000000         0.006161         0.000000 0 0 /
+ S      jfsCommit 14706    759716.916700         2   120         0.000000         0.005154         0.000000 0 0 /
+ S        jfsSync 14708    759725.921534         2   120         0.000000         0.004839         0.000000 0 0 /
+ SThreadPoolSingl 19005   1874786.952816         1   120         0.000000         0.060731         0.000000 0 0 /user.slice
+ SCompositorTileW 19007  17240827.278542      2427   120         0.000000      1212.827485         0.000000 0 0 /user.slice
+ SThreadPoolForeg 23466  31886517.522677        55   120         0.000000        26.734534         0.000000 0 0 /user.slice
+ SGpuMemoryThread 19168   1912990.936359       736   120         0.000000        50.874711         0.000000 0 0 /user.slice
+ SThreadPoolSingl 19171   1890085.231205         2   120         0.000000         0.144466         0.000000 0 0 /user.slice
+ SCompositorTileW 19174   1911352.692551        22   130         0.000000        10.201485         0.000000 0 0 /user.slice
+ SGpuMemoryThread 19292   1897420.696853         2   120         0.000000         0.245920         0.000000 0 0 /user.slice
+ SCompositorTileW 19296  17437804.949205         3   120         0.000000         0.094383         0.000000 0 0 /user.slice
+ SCompositorTileW 19297  31451883.637808         3   120         0.000000         0.101561         0.000000 0 0 /user.slice
+ SCompositorTileW 19298   1897419.327785         1   130         0.000000         0.093782         0.000000 0 0 /user.slice
+ S           zoom 19646  31895893.720483    162502   120         0.000000     42334.424823         0.000000 0 0 /user.slice
+ SQDBusConnection 19655  31431369.569885       647   120         0.000000        93.116322         0.000000 0 0 /user.slice
+ S  zoom.timer.do 19660  31895898.019517    126725   120         0.000000      4612.193548         0.000000 0 0 /user.slice
+ S        zoom.db 19663  31895891.899147    126067   120         0.000000      2833.757545         0.000000 0 0 /user.slice
+ S  zoom.im.index 19664  31895891.897779    126073   120         0.000000      2808.549868         0.000000 0 0 /user.slice
+ S           zoom 19666  31895888.327298     25710   120         0.000000       644.663828         0.000000 0 0 /user.slice
+ S    zoom:disk$1 19696   1910129.894720         1   120         0.000000         0.086938         0.000000 0 0 /user.slice
+ S           zoom 19700  31895893.630409     83341   120         0.000000      3972.923090         0.000000 0 0 /user.slice
+ S           zoom 19703  31895888.324038     12809   120         0.000000       251.864792         0.000000 0 0 /user.slice
+ S        QThread 19705  31895891.700275     84316   120         0.000000      1629.754575         0.000000 0 0 /user.slice
+ S       zoom.dns 19731  31895891.902341    125867   120         0.000000      2788.438020         0.000000 0 0 /user.slice
+ S      zoom.user 19813  31895891.954240    150476   120         0.000000      8620.724262         0.000000 0 0 /user.slice
+ S      zoom.user 19814  31895891.902076    117907   120         0.000000      2548.026094         0.000000 0 0 /user.slice
+ S  ProcessThread 23055  31895881.375956      3961   120         0.000000        67.637327         0.000000 0 0 /user.slice
+ S    threaded-ml 23057  31280541.768090        78   120         0.000000         2.590049         0.000000 0 0 /user.slice
+ S        QThread 23063  31895891.696036     25832   120         0.000000       224.177982         0.000000 0 0 /user.slice
+ S        QThread 23065  31895891.132183     25841   120         0.000000       215.092781         0.000000 0 0 /user.slice
+ S      vncviewer 19786  14038553.350814      5050   120         0.000000      1657.288828         0.000000 0 0 /user.slice
+ S   dconf worker 19790   1916411.650928        21   120         0.000000         2.686381         0.000000 0 0 /user.slice
+ S   dconf worker 19838   1919176.775789        30   120         0.000000         4.443709         0.000000 0 0 /user.slice
+ S          gdbus 19839  31791786.611655      1962   120         0.000000       354.579762         0.000000 0 0 /user.slice
+ SBluez D-Bus thr 19841   1926299.357771        31   120         0.000000         3.452513         0.000000 0 0 /user.slice
+ SCompositorTileW 19850  31791806.713962       776   120         0.000000       243.748326         0.000000 0 0 /user.slice
+ S           code 19856   1929961.212999        59   120         0.000000         4.452763         0.000000 0 0 /user.slice
+ S           code 19854  31895864.395308     53082   120         0.000000     18144.721158         0.000000 0 0 /user.slice
+ S    code:disk$0 19860   1919277.310824         1   120         0.000000         0.133894         0.000000 0 0 /user.slice
+ S    code:disk$1 19861   1919276.213949         1   120         0.000000         0.187811         0.000000 0 0 /user.slice
+ S    code:disk$2 19862   1919224.151818         1   120         0.000000         0.035149         0.000000 0 0 /user.slice
+ S    code:disk$3 19863   1919310.272700         2   120         0.000000         0.096568         0.000000 0 0 /user.slice
+ SThreadPoolServi 19872  31480318.254357       133   120         0.000000         9.666062         0.000000 0 0 /user.slice
+ SChrome_ChildIOT 19874  31433005.874708     43865   120         0.000000      6426.667625         0.000000 0 0 /user.slice
+ S           code 19885  31895864.477183     52804   120         0.000000     29351.017675         0.000000 0 0 /user.slice
+ SCompositorTileW 19895  31264914.831690        14   130         0.000000         1.286321         0.000000 0 0 /user.slice
+ S           code 19973  31895066.189369       582   120         0.000000        15.143228         0.000000 0 0 /user.slice
+ S           code 20048  31895838.771896       598   120         0.000000        18.459137         0.000000 0 0 /user.slice
+ SCompositorTileW 19945   1922069.603984         6   120         0.000000         0.512012         0.000000 0 0 /user.slice
+ I   kworker/3:2H 19963   4895833.913029      9833   100         0.000000       211.088552         0.000000 0 0 /
+ I    kworker/3:2 20053   4895628.019245    132472   120         0.000000      3926.711669         0.000000 0 0 /
+ SMicrosoft.Pytho 20163   1929126.082256       209   120         0.000000       168.230808         0.000000 0 0 /user.slice
+ SMicrosoft.Pytho 20164   1928980.531453         1   120         0.000000         0.081398         0.000000 0 0 /user.slice
+ SMicrosoft.Pytho 20169  31895889.347847     68620   120         0.000000      2214.369282         0.000000 0 0 /user.slice
+ SMicrosoft.Pytho 20170  31449008.314376       149   120         0.000000       317.505924         0.000000 0 0 /user.slice
+ SMicrosoft.Pytho 20174  31449009.893523       313   120         0.000000       265.314504         0.000000 0 0 /user.slice
+ SMicrosoft.Pytho 22690  31895889.434841     23956   120         0.000000      1450.890750         0.000000 0 0 /user.slice
+ SMicrosoft.Pytho 23545  31885298.723187        29   120         0.000000         3.286977         0.000000 0 0 /user.slice
+ S           nemo 20400  31895888.449507     36183   120         0.000000     18448.320788         0.000000 0 0 /user.slice
+ S   dconf worker 20404  11637705.380291        51   120         0.000000         4.558300         0.000000 0 0 /user.slice
+ S          gdbus 20405  31895887.631940      1408   120         0.000000        82.047985         0.000000 0 0 /user.slice
+>R      pool-nemo 23537  31895906.994393     10960   120         0.000000      2768.877345         0.000000 0 0 /user.slice
+ S      pool-nemo 23555  31895838.149795        35   120         0.000000         3.527664         0.000000 0 0 /user.slice
+ S     Compositor 21598  31456149.411259     11778   120         0.000000      2163.436045         0.000000 0 0 /user.slice
+ SCompositorTileW 21600  31452492.637577       552   120         0.000000        63.615786         0.000000 0 0 /user.slice
+ SCompositorTileW 21601  31452462.942324       566   120         0.000000        63.671403         0.000000 0 0 /user.slice
+ SCompositorTileW 21602  31452352.388019        70   130         0.000000        16.837709         0.000000 0 0 /user.slice
+ SCompositorTileW 21665  17416893.884410         1   120         0.000000         0.071434         0.000000 0 0 /user.slice
+ SCompositorTileW 21667  17416898.773085         1   130         0.000000         0.081112         0.000000 0 0 /user.slice
+ I    kworker/3:0 22978   4531047.587042        17   120         0.000000         1.661136         0.000000 0 0 /
+ SGpuMemoryThread 23281  31786146.100366       587   120         0.000000        32.752293         0.000000 0 0 /user.slice
+ SCompositorTileW 23285  31786111.726194      1600   120         0.000000       718.421352         0.000000 0 0 /user.slice
+ SCompositorTileW 23286  31786112.261348      1697   120         0.000000       747.267098         0.000000 0 0 /user.slice
+ SCompositorTileW 23287  31786120.905258       212   130         0.000000        82.931902         0.000000 0 0 /user.slice
+ SThreadPoolSingl 23346  31759912.231912        22   120         0.000000         4.344591         0.000000 0 0 /user.slice
+ S    MemoryInfra 23435  31817529.736874         2   120         0.000000         1.960383         0.000000 0 0 /user.slice
+ SCompositorTileW 23324  31453965.621605         1   120         0.000000         0.077189         0.000000 0 0 /user.slice
+ I    kworker/3:1 23459   4857552.035642         4   120         0.000000         0.021286         0.000000 0 0 /
+

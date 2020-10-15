@@ -1,0 +1,21 @@
+Sound Driver:3.8.1a-980706 (ALSA emulation code)
+Kernel: Linux akshay-anvekar-PC 5.4.0-48-generic #52-Ubuntu SMP Thu Sep 10 10:58:49 UTC 2020 x86_64
+Config options: 0
+
+Installed drivers: 
+Type 10: ALSA emulation
+
+Card config: 
+HDA Intel HDMI at 0xc6218000 irq 53
+HDA Intel PCH at 0xc621c000 irq 52
+
+Audio devices: NOT ENABLED IN CONFIG
+
+Synth devices: NOT ENABLED IN CONFIG
+
+Midi devices: NOT ENABLED IN CONFIG
+
+Timers:
+31: system timer
+
+Mixers: NOT ENABLED IN CONFIG

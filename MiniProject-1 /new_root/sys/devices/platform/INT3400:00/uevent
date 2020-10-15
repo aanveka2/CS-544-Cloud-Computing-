@@ -1,0 +1,2 @@
+DRIVER=int3400 thermal
+MODALIAS=acpi:INT3400:

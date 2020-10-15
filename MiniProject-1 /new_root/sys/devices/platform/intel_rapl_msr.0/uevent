@@ -1,0 +1,2 @@
+DRIVER=intel_rapl_msr
+MODALIAS=platform:intel_rapl_msr

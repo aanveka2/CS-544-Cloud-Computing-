@@ -1,0 +1,7 @@
+JFS Logmgr stats
+================
+commits = 0
+writes submitted = 0
+writes completed = 0
+full pages submitted = 0
+partial pages submitted = 0

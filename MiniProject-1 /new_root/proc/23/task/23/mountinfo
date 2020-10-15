@@ -1,0 +1,12 @@
+1621 30 0:77 / /sys rw,relatime shared:690 - sysfs sysfs rw
+1655 1621 0:78 / /sys/fs/cgroup rw,relatime shared:763 - tmpfs cgroup_root rw
+1689 1655 0:36 / /sys/fs/cgroup/cpuset rw,relatime shared:777 - cgroup cpuset rw,cpuset
+1723 1655 0:79 / /sys/fs/cgroup rw,relatime shared:791 - tmpfs cgroup_root rw
+1759 1723 0:44 / /sys/fs/cgroup/memory rw,relatime shared:805 - cgroup memory rw,memory
+1794 30 0:80 / /proc rw,relatime shared:819 - proc proc rw
+1793 1621 0:84 / /sys rw,relatime shared:833 - sysfs sysfs rw
+2600 1793 0:85 / /sys/fs/cgroup rw,relatime shared:847 - tmpfs cgroup_root rw
+2634 2600 0:36 / /sys/fs/cgroup/cpuset rw,relatime shared:861 - cgroup cpuset rw,cpuset
+2668 2600 0:86 / /sys/fs/cgroup rw,relatime shared:875 - tmpfs cgroup_root rw
+2702 2668 0:44 / /sys/fs/cgroup/memory rw,relatime shared:928 - cgroup memory rw,memory
+2737 1794 0:87 / /proc rw,relatime shared:942 - proc proc rw

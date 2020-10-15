@@ -1,0 +1,8 @@
+total=1914 N0=1972
+file=0 N0=45
+anon=1914 N0=1927
+unevictable=0 N0=0
+hierarchical_total=1914 N0=1972
+hierarchical_file=0 N0=45
+hierarchical_anon=1914 N0=1927
+hierarchical_unevictable=0 N0=0

@@ -1,0 +1,7 @@
+Attached devices:
+Host: scsi0 Channel: 00 Id: 00 Lun: 00
+  Vendor: ATA      Model: ADATA SU800      Rev: 7ANR
+  Type:   Direct-Access                    ANSI  SCSI revision: 05
+Host: scsi1 Channel: 00 Id: 00 Lun: 00
+  Vendor: ATA      Model: HGST HTS541010A9 Rev: A710
+  Type:   Direct-Access                    ANSI  SCSI revision: 05

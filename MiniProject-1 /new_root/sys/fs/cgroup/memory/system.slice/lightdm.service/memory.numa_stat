@@ -1,0 +1,8 @@
+total=56283 N0=56328
+file=10776 N0=10839
+anon=19767 N0=19700
+unevictable=25740 N0=25789
+hierarchical_total=56283 N0=56328
+hierarchical_file=10776 N0=10839
+hierarchical_anon=19767 N0=19700
+hierarchical_unevictable=25740 N0=25789

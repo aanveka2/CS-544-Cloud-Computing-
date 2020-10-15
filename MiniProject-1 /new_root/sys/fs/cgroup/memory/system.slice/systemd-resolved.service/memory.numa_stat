@@ -1,0 +1,8 @@
+total=2011 N0=2013
+file=988 N0=947
+anon=1023 N0=1066
+unevictable=0 N0=0
+hierarchical_total=2011 N0=2013
+hierarchical_file=988 N0=947
+hierarchical_anon=1023 N0=1066
+hierarchical_unevictable=0 N0=0

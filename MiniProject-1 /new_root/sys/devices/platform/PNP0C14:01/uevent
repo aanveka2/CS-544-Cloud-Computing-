@@ -1,0 +1,2 @@
+DRIVER=acpi-wmi
+MODALIAS=acpi:PNP0C14:

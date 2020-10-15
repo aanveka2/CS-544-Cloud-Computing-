@@ -1,0 +1,25 @@
+extent_alloc 0 0 0 0
+abt 0 0 0 0
+blk_map 0 0 0 0 0 0 0
+bmbt 0 0 0 0
+dir 0 0 0 0
+trans 0 0 0
+ig 0 0 0 0 0 0 0
+log 0 0 0 0 0
+push_ail 0 0 0 0 0 0 0 0 0 0
+xstrat 0 0
+rw 0 0
+attr 0 0 0 0
+icluster 0 0 0
+vnodes 0 0 0 0 0 0 0 0
+buf 0 0 0 0 0 0 0 0 0
+abtb2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+abtc2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+bmbt2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ibt2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+fibt2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+rmapbt 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+refcntbt 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+qm 0 0 0 0 0 0 0 0 0
+xpc 0 0 0
+debug 0

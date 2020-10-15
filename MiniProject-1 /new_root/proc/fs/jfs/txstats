@@ -1,0 +1,11 @@
+JFS TxStats
+===========
+calls to txBegin = 0
+txBegin blocked by sync barrier = 0
+txBegin blocked by tlocks low = 0
+txBegin blocked by no free tid = 0
+calls to txBeginAnon = 0
+txBeginAnon blocked by sync barrier = 0
+txBeginAnon blocked by tlocks low = 0
+calls to txLockAlloc = 0
+tLockAlloc blocked by no free lock = 0

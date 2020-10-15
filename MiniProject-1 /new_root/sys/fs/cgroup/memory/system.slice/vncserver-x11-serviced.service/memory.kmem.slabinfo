@@ -1,0 +1,36 @@
+slabinfo - version: 2.1
+# name            <active_objs> <num_objs> <objsize> <objperslab> <pagesperslab> : tunables <limit> <batchcount> <sharedfactor> : slabdata <active_slabs> <num_slabs> <sharedavail>
+kmalloc-rcl-64        64     64     64   64    1 : tunables    0    0    0 : slabdata      1      1      0
+eventpoll_pwq         56     56     72   56    1 : tunables    0    0    0 : slabdata      1      1      0
+pde_opener           102    102     40  102    1 : tunables    0    0    0 : slabdata      1      1      0
+kmalloc-2k            48     48   2048   16    8 : tunables    0    0    0 : slabdata      3      3      0
+TCP                   14     14   2240   14    8 : tunables    0    0    0 : slabdata      1      1      0
+UDP                   56     56   1152   28    8 : tunables    0    0    0 : slabdata      2      2      0
+signal_cache         120    120   1088   30    8 : tunables    0    0    0 : slabdata      4      4      0
+sighand_cache         60     60   2112   15    8 : tunables    0    0    0 : slabdata      4      4      0
+files_cache           92     92    704   23    4 : tunables    0    0    0 : slabdata      4      4      0
+task_delay_info      204    204     80   51    1 : tunables    0    0    0 : slabdata      4      4      0
+task_struct           20     20   5952    5    8 : tunables    0    0    0 : slabdata      4      4      0
+kmalloc-1k            64     64   1024   16    4 : tunables    0    0    0 : slabdata      4      4      0
+kmalloc-192           63     63    192   21    1 : tunables    0    0    0 : slabdata      3      3      0
+shmem_inode_cache     44     44    720   22    4 : tunables    0    0    0 : slabdata      2      2      0
+buffer_head          273    273    104   39    1 : tunables    0    0    0 : slabdata      7      7      0
+kmalloc-4k            32     32   4096    8    8 : tunables    0    0    0 : slabdata      4      4      0
+kmalloc-32           512    512     32  128    1 : tunables    0    0    0 : slabdata      4      4      0
+proc_inode_cache     360    360    680   24    4 : tunables    0    0    0 : slabdata     15     15      0
+anon_vma             368    368     88   46    1 : tunables    0    0    0 : slabdata      8      8      0
+anon_vma_chain       768    768     64   64    1 : tunables    0    0    0 : slabdata     12     12      0
+radix_tree_node      196    196    584   28    4 : tunables    0    0    0 : slabdata      7      7      0
+vm_area_struct      1178   1178    208   19    1 : tunables    0    0    0 : slabdata     62     62      0
+mm_struct            120    120   1088   30    8 : tunables    0    0    0 : slabdata      4      4      0
+ext4_inode_cache     261    261   1096   29    8 : tunables    0    0    0 : slabdata      9      9      0
+kmalloc-64           256    256     64   64    1 : tunables    0    0    0 : slabdata      4      4      0
+cred_jar              84     84    192   21    1 : tunables    0    0    0 : slabdata      4      4      0
+kmalloc-512          112    112    512   16    2 : tunables    0    0    0 : slabdata      7      7      0
+skbuff_head_cache    112    112    256   16    1 : tunables    0    0    0 : slabdata      7      7      0
+PING                  64     64   1024   16    4 : tunables    0    0    0 : slabdata      4      4      0
+sock_inode_cache      76     76    832   19    4 : tunables    0    0    0 : slabdata      4      4      0
+pid                  128    128    128   32    1 : tunables    0    0    0 : slabdata      4      4      0
+inode_cache           78     78    608   26    4 : tunables    0    0    0 : slabdata      3      3      0
+dentry               672    672    192   21    1 : tunables    0    0    0 : slabdata     32     32      0
+filp                 831    880    256   16    1 : tunables    0    0    0 : slabdata     55     55      0
